@@ -1,0 +1,369 @@
+[0.013s] Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/libfranka': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dharmik.p45/Dharmik/berry_ws/src/libfranka -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka
+[0.102s] -- pinocchio_default FOUND. pinocchio_default at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_default.so
+[0.103s] -- pinocchio_parsers FOUND. pinocchio_parsers at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_parsers.so
+[0.106s] -- boost_filesystem FOUND. boost_filesystem at /lib/x86_64-linux-gnu/libboost_filesystem.so
+[0.107s] -- Found Boost: /usr/include (found version "1.74.0") found components: filesystem serialization system 
+[0.107s] -- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so
+[0.357s] -- PythonLibraryDirs: 
+[0.357s] -- PythonLibVersionString: 3.10.12
+[0.366s] -- Python site lib: lib/python3.10/site-packages
+[0.366s] -- Python include dirs: /usr/include/python3.10
+[0.391s] -- Checking for NumPy
+[0.477s] --   NUMPY_INCLUDE_DIRS=/home/dharmik.p45/.local/lib/python3.10/site-packages/numpy/_core/include
+[0.538s] --   NUMPY_VERSION=2.2.6
+[0.538s] -- NumPy include dir: /home/dharmik.p45/.local/lib/python3.10/site-packages/numpy/_core/include
+[0.541s] [33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+[0.541s]   No header defined for python310; skipping header check (note: header-only
+[0.541s]   libraries have no designated component)
+[0.541s] Call Stack (most recent call first):
+[0.541s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+[0.541s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+[0.541s]   /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+[0.541s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)
+[0.541s]   CMakeLists.txt:54 (find_package)
+[0.541s] 
+[0.541s] [0m
+[0.541s] -- Found Boost: /usr/include (found version "1.74.0") found components: python310 
+[0.753s] -- Default C++ standard: 201703
+[0.753s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[0.754s] -- hpp-fcl FOUND. hpp-fcl at /opt/ros/humble/lib/x86_64-linux-gnu/libhpp-fcl.so
+[0.758s] -- Found Boost: /usr/include (found version "1.74.0") found components: chrono serialization filesystem 
+[0.759s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[0.760s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[0.771s] -- Found fmt: 8.1.1
+[0.779s] -- googletest not found. Fetching googletest...
+[0.999s] -- Found fmt: 8.1.1
+[1.045s] -- Configuring done
+[1.104s] -- Generating done
+[1.116s] -- Build files have been written to: /home/dharmik.p45/Dharmik/berry_ws/build/libfranka
+[1.121s] Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/libfranka' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dharmik.p45/Dharmik/berry_ws/src/libfranka -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka
+[1.123s] Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/libfranka': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/libfranka -- -j16 -l16
+[1.163s] [  1%] [32mBuilding CXX object _deps/gtest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.163s] [  2%] [32mBuilding CXX object CMakeFiles/franka.dir/src/active_motion_generator.cpp.o[0m
+[1.163s] [  3%] [32mBuilding CXX object CMakeFiles/franka.dir/src/control_loop.cpp.o[0m
+[1.165s] [  4%] [32mBuilding CXX object CMakeFiles/franka.dir/src/errors.cpp.o[0m
+[1.165s] [  4%] [32mBuilding CXX object CMakeFiles/franka.dir/src/duration.cpp.o[0m
+[1.166s] [  4%] [32mBuilding CXX object CMakeFiles/franka.dir/src/active_control.cpp.o[0m
+[1.166s] [  4%] [32mBuilding CXX object CMakeFiles/franka.dir/src/active_torque_control.cpp.o[0m
+[1.166s] [  4%] [32mBuilding CXX object CMakeFiles/franka.dir/src/control_tools.cpp.o[0m
+[1.167s] [  5%] [32mBuilding CXX object CMakeFiles/franka.dir/src/control_types.cpp.o[0m
+[1.167s] [  6%] [32mBuilding CXX object CMakeFiles/franka.dir/src/gripper.cpp.o[0m
+[1.167s] [  6%] [32mBuilding CXX object CMakeFiles/franka.dir/src/exception.cpp.o[0m
+[1.168s] [  7%] [32mBuilding CXX object CMakeFiles/franka.dir/src/joint_velocity_limits.cpp.o[0m
+[1.169s] [  7%] [32mBuilding CXX object CMakeFiles/franka.dir/src/gripper_state.cpp.o[0m
+[1.170s] [  7%] [32mBuilding CXX object CMakeFiles/franka.dir/src/load_calculations.cpp.o[0m
+[1.172s] [  8%] [32mBuilding CXX object CMakeFiles/franka.dir/src/lowpass_filter.cpp.o[0m
+[1.184s] [  8%] [32mBuilding CXX object CMakeFiles/franka.dir/src/model.cpp.o[0m
+[1.374s] [  9%] [32mBuilding CXX object CMakeFiles/franka.dir/src/network.cpp.o[0m
+[1.593s] [  9%] [32mBuilding CXX object CMakeFiles/franka.dir/src/rate_limiting.cpp.o[0m
+[1.659s] [ 10%] [32mBuilding CXX object CMakeFiles/franka.dir/src/robot.cpp.o[0m
+[1.705s] [ 10%] [32mBuilding CXX object CMakeFiles/franka.dir/src/robot_impl.cpp.o[0m
+[1.709s] [ 11%] [32mBuilding CXX object CMakeFiles/franka.dir/src/robot_state.cpp.o[0m
+[1.988s] [ 11%] [32mBuilding CXX object CMakeFiles/franka.dir/src/vacuum_gripper.cpp.o[0m
+[2.148s] [ 12%] [32mBuilding CXX object CMakeFiles/franka.dir/src/vacuum_gripper_state.cpp.o[0m
+[2.411s] [ 12%] [32mBuilding CXX object CMakeFiles/franka.dir/src/robot_model.cpp.o[0m
+[2.557s] [ 13%] [32mBuilding CXX object CMakeFiles/franka.dir/src/async_control/async_position_control_handler.cpp.o[0m
+[2.609s] [ 14%] [32mBuilding CXX object CMakeFiles/franka.dir/src/logging/logger.cpp.o[0m
+[2.613s] [ 14%] [32mBuilding CXX object CMakeFiles/franka.dir/src/logging/cout_logging_sink.cpp.o[0m
+[2.628s] [ 14%] [32mBuilding CXX object CMakeFiles/franka.dir/src/logging/robot_state_log.cpp.o[0m
+[2.977s] [ 15%] [32mBuilding CXX object CMakeFiles/franka.dir/src/logging/robot_state_logger.cpp.o[0m
+[9.011s] [ 15%] [32m[1mLinking CXX static library ../../../lib/libgtest.a[0m
+[9.081s] [ 15%] Built target gtest
+[9.100s] [ 16%] [32mBuilding CXX object _deps/gtest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[11.135s] [ 16%] [32m[1mLinking CXX static library ../../../lib/libgmock.a[0m
+[11.199s] [ 16%] Built target gmock
+[11.215s] [ 17%] [32mBuilding CXX object _deps/gtest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[11.944s] [ 17%] [32m[1mLinking CXX static library ../../../lib/libgmock_main.a[0m
+[12.008s] [ 17%] Built target gmock_main
+[44.833s] [ 17%] [32m[1mLinking CXX shared library libfranka.so[0m
+[44.980s] [ 17%] Built target franka
+[44.998s] [ 19%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_tsan.dir/active_torque_control_tests.cpp.o[0m
+[44.998s] [ 19%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/calculations_tests.cpp.o[0m
+[44.998s] [ 19%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_tsan.dir/calculations_tests.cpp.o[0m
+[44.999s] [ 20%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/control_types_tests.cpp.o[0m
+[45.000s] [ 22%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/active_motion_generator_tests.cpp.o[0m
+[45.000s] [ 22%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/active_torque_control_tests.cpp.o[0m
+[45.000s] [ 22%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_tsan.dir/active_motion_generator_tests.cpp.o[0m
+[45.000s] [ 22%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/control_loop_tests.cpp.o[0m
+[45.002s] [ 22%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_tsan.dir/control_loop_tests.cpp.o[0m
+[45.002s] [ 22%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_tsan.dir/duration_tests.cpp.o[0m
+[45.004s] [ 22%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/duration_tests.cpp.o[0m
+[45.004s] [ 23%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/active_motion_generator_tests.cpp.o[0m
+[45.004s] [ 25%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/active_motion_generator_tests.cpp.o[0m
+[45.004s] [ 26%] [32mBuilding CXX object examples/CMakeFiles/examples_common.dir/examples_common.cpp.o[0m
+[45.005s] [ 27%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_tsan.dir/control_types_tests.cpp.o[0m
+[45.007s] [ 28%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_tsan.dir/errors_tests.cpp.o[0m
+[46.618s] [ 29%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/errors_tests.cpp.o[0m
+[47.206s] [ 29%] [32m[1mLinking CXX static library libexamples_common.a[0m
+[47.302s] [ 29%] Built target examples_common
+[47.318s] [ 29%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/active_torque_control_tests.cpp.o[0m
+[47.637s] [ 29%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/gripper_command_tests.cpp.o[0m
+[47.653s] [ 29%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_tsan.dir/gripper_command_tests.cpp.o[0m
+[47.727s] [ 29%] [32mBuilding CXX object examples/CMakeFiles/async_position_control.dir/async_position_control.cpp.o[0m
+[47.815s] [ 29%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/active_torque_control_tests.cpp.o[0m
+[48.050s] [ 30%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_tsan.dir/gripper_tests.cpp.o[0m
+[48.172s] [ 30%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_tsan.dir/helpers.cpp.o[0m
+[48.873s] [ 31%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/calculations_tests.cpp.o[0m
+[49.759s] [ 31%] [32m[1mLinking CXX executable async_position_control[0m
+[49.931s] [ 31%] Built target async_position_control
+[49.939s] [ 31%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/control_loop_tests.cpp.o[0m
+[50.515s] [ 32%] [32mBuilding CXX object examples/CMakeFiles/cartesian_impedance_control.dir/cartesian_impedance_control.cpp.o[0m
+[53.268s] [ 33%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/calculations_tests.cpp.o[0m
+[53.652s] [ 34%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_tsan.dir/lowpass_filter_tests.cpp.o[0m
+[55.640s] [ 35%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/gripper_tests.cpp.o[0m
+[57.228s] [ 35%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/helpers.cpp.o[0m
+[57.896s] [ 36%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/lowpass_filter_tests.cpp.o[0m
+[58.456s] [ 36%] [32m[1mLinking CXX executable cartesian_impedance_control[0m
+[58.537s] [ 37%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/control_types_tests.cpp.o[0m
+[58.626s] [ 38%] [32mBuilding CXX object examples/CMakeFiles/communication_test.dir/communication_test.cpp.o[0m
+[58.671s] [ 38%] Built target cartesian_impedance_control
+[58.694s] [ 38%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/duration_tests.cpp.o[0m
+[58.706s] [ 39%] [32mBuilding CXX object examples/CMakeFiles/echo_robot_state.dir/echo_robot_state.cpp.o[0m
+[60.207s] [ 39%] [32m[1mLinking CXX executable echo_robot_state[0m
+[60.388s] [ 39%] Built target echo_robot_state
+[60.401s] [ 40%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/errors_tests.cpp.o[0m
+[61.049s] [ 40%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/gripper_command_tests.cpp.o[0m
+[61.288s] [ 40%] [32m[1mLinking CXX executable communication_test[0m
+[61.498s] [ 40%] Built target communication_test
+[61.507s] [ 40%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/control_loop_tests.cpp.o[0m
+[62.193s] [ 41%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/gripper_tests.cpp.o[0m
+[63.447s] [ 41%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_tsan.dir/mock_server.cpp.o[0m
+[63.901s] [ 41%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/helpers.cpp.o[0m
+[64.121s] [ 42%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_tsan.dir/model_tests.cpp.o[0m
+[66.667s] [ 43%] [32mBuilding CXX object examples/CMakeFiles/force_control.dir/force_control.cpp.o[0m
+[66.930s] [ 44%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/control_types_tests.cpp.o[0m
+[67.242s] [ 45%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/lowpass_filter_tests.cpp.o[0m
+[69.250s] [ 45%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/mock_server.cpp.o[0m
+[70.099s] [ 45%] [32m[1mLinking CXX executable force_control[0m
+[70.306s] [ 45%] Built target force_control
+[70.320s] [ 45%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/duration_tests.cpp.o[0m
+[70.558s] [ 45%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/mock_server.cpp.o[0m
+[71.448s] [ 45%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_tsan.dir/rate_limiting_tests.cpp.o[0m
+[71.505s] [ 46%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/errors_tests.cpp.o[0m
+[73.274s] [ 46%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/gripper_command_tests.cpp.o[0m
+[74.113s] [ 47%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_tsan.dir/robot_command_tests.cpp.o[0m
+[74.344s] [ 47%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_tsan.dir/robot_impl_tests.cpp.o[0m
+[75.189s] [ 48%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_tsan.dir/robot_model_tests.cpp.o[0m
+[79.535s] [ 48%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_tsan.dir/robot_model_fk_tests.cpp.o[0m
+[80.075s] [ 50%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_tsan.dir/robot_jacobian_tests.cpp.o[0m
+[80.787s] [ 51%] [32mBuilding CXX object examples/CMakeFiles/generate_cartesian_pose_motion.dir/generate_cartesian_pose_motion.cpp.o[0m
+[82.083s] [ 52%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/model_tests.cpp.o[0m
+[82.918s] [ 53%] [32mBuilding CXX object examples/CMakeFiles/generate_cartesian_pose_motion_external_control_loop.dir/generate_cartesian_pose_motion_external_control_loop.cpp.o[0m
+[83.006s] [ 53%] [32m[1mLinking CXX executable generate_cartesian_pose_motion[0m
+[83.287s] [ 53%] Built target generate_cartesian_pose_motion
+[83.340s] [ 54%] [32mBuilding CXX object examples/CMakeFiles/generate_cartesian_velocity_motion.dir/generate_cartesian_velocity_motion.cpp.o[0m
+[83.630s] [ 55%] [32mBuilding CXX object examples/CMakeFiles/generate_cartesian_velocity_motion_external_control_loop.dir/generate_cartesian_velocity_motion_external_control_loop.cpp.o[0m
+[85.240s] [ 55%] [32m[1mLinking CXX executable generate_cartesian_pose_motion_external_control_loop[0m
+[85.356s] [ 55%] [32m[1mLinking CXX executable generate_cartesian_velocity_motion[0m
+[85.442s] [ 55%] Built target generate_cartesian_pose_motion_external_control_loop
+[85.458s] [ 56%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/model_tests.cpp.o[0m
+[85.562s] [ 56%] Built target generate_cartesian_velocity_motion
+[85.572s] [ 56%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/rate_limiting_tests.cpp.o[0m
+[85.849s] [ 56%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_tsan.dir/robot_state_tests.cpp.o[0m
+[86.109s] [ 56%] [32m[1mLinking CXX executable generate_cartesian_velocity_motion_external_control_loop[0m
+[86.305s] [ 56%] Built target generate_cartesian_velocity_motion_external_control_loop
+[86.319s] [ 57%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/gripper_tests.cpp.o[0m
+[86.936s] [ 58%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/robot_command_tests.cpp.o[0m
+[87.919s] [ 58%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/robot_impl_tests.cpp.o[0m
+[90.221s] [ 58%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/helpers.cpp.o[0m
+[91.464s] [ 59%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/lowpass_filter_tests.cpp.o[0m
+[94.209s] [ 59%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/rate_limiting_tests.cpp.o[0m
+[94.663s] [ 60%] [32mBuilding CXX object examples/CMakeFiles/generate_consecutive_motions.dir/generate_consecutive_motions.cpp.o[0m
+[96.812s] [ 60%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/mock_server.cpp.o[0m
+[96.978s] [ 60%] [32m[1mLinking CXX executable generate_consecutive_motions[0m
+[97.077s] [ 61%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/robot_model_tests.cpp.o[0m
+[97.184s] [ 61%] Built target generate_consecutive_motions
+[97.208s] [ 61%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/robot_model_fk_tests.cpp.o[0m
+[98.549s] [ 62%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/robot_jacobian_tests.cpp.o[0m
+[100.299s] [ 63%] [32mBuilding CXX object examples/CMakeFiles/generate_elbow_motion.dir/generate_elbow_motion.cpp.o[0m
+[100.756s] [ 64%] [32mBuilding CXX object examples/CMakeFiles/generate_joint_position_motion.dir/generate_joint_position_motion.cpp.o[0m
+[100.763s] [ 65%] [32mBuilding CXX object examples/CMakeFiles/generate_joint_position_motion_external_control_loop.dir/generate_joint_position_motion_external_control_loop.cpp.o[0m
+[102.862s] [ 66%] [32mBuilding CXX object examples/CMakeFiles/generate_joint_velocity_motion.dir/generate_joint_velocity_motion.cpp.o[0m
+[102.891s] [ 66%] [32m[1mLinking CXX executable generate_elbow_motion[0m
+[103.071s] [ 66%] [32m[1mLinking CXX executable generate_joint_position_motion_external_control_loop[0m
+[103.103s] [ 66%] Built target generate_elbow_motion
+[103.127s] [ 67%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/robot_command_tests.cpp.o[0m
+[103.288s] [ 67%] Built target generate_joint_position_motion_external_control_loop
+[103.302s] [ 68%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_tsan.dir/robot_tests.cpp.o[0m
+[103.320s] [ 68%] [32m[1mLinking CXX executable generate_joint_position_motion[0m
+[103.518s] [ 68%] Built target generate_joint_position_motion
+[103.534s] [ 69%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/model_tests.cpp.o[0m
+[104.746s] [ 69%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/robot_state_tests.cpp.o[0m
+[105.205s] [ 69%] [32m[1mLinking CXX executable generate_joint_velocity_motion[0m
+[105.463s] [ 69%] Built target generate_joint_velocity_motion
+[105.480s] [ 70%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/robot_tests.cpp.o[0m
+[109.351s] [ 70%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/robot_impl_tests.cpp.o[0m
+[109.877s] [ 70%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_tsan.dir/vacuum_gripper_tests.cpp.o[0m
+[113.252s] [ 71%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/robot_model_tests.cpp.o[0m
+[113.261s] [ 71%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/robot_model_fk_tests.cpp.o[0m
+[114.894s] [ 72%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/robot_jacobian_tests.cpp.o[0m
+[115.929s] [ 72%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/robot_state_tests.cpp.o[0m
+[116.844s] [ 73%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/robot_tests.cpp.o[0m
+[117.189s] [ 73%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/vacuum_gripper_tests.cpp.o[0m
+[121.325s] [ 75%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_tsan.dir/vacuum_gripper_command_tests.cpp.o[0m
+[124.612s] [ 76%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/vacuum_gripper_command_tests.cpp.o[0m
+[124.669s] [ 76%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/rate_limiting_tests.cpp.o[0m
+[125.919s] [ 77%] [32mBuilding CXX object examples/CMakeFiles/generate_joint_velocity_motion_external_control_loop.dir/generate_joint_velocity_motion_external_control_loop.cpp.o[0m
+[128.628s] [ 77%] [32m[1mLinking CXX executable generate_joint_velocity_motion_external_control_loop[0m
+[128.934s] [ 77%] Built target generate_joint_velocity_motion_external_control_loop
+[128.954s] [ 78%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/robot_command_tests.cpp.o[0m
+[129.249s] [ 79%] [32mBuilding CXX object examples/CMakeFiles/grasp_object.dir/grasp_object.cpp.o[0m
+[129.662s] [ 80%] [32mBuilding CXX object examples/CMakeFiles/joint_impedance_control.dir/joint_impedance_control.cpp.o[0m
+[130.393s] [ 80%] [32m[1mLinking CXX executable grasp_object[0m
+[130.627s] [ 80%] Built target grasp_object
+[130.641s] [ 80%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/vacuum_gripper_tests.cpp.o[0m
+[130.728s] [ 80%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/robot_impl_tests.cpp.o[0m
+[132.231s] [ 80%] [32m[1mLinking CXX executable joint_impedance_control[0m
+[132.463s] [ 80%] Built target joint_impedance_control
+[132.480s] [ 80%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/logging/logging_tests.cpp.o[0m
+[133.359s] [ 81%] [32mBuilding CXX object examples/CMakeFiles/joint_point_to_point_motion.dir/joint_point_to_point_motion.cpp.o[0m
+[134.196s] [ 82%] [32mBuilding CXX object examples/CMakeFiles/motion_with_control.dir/motion_with_control.cpp.o[0m
+[134.423s] [ 83%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/robot_model_tests.cpp.o[0m
+[135.561s] [ 83%] [32m[1mLinking CXX executable joint_point_to_point_motion[0m
+[135.814s] [ 83%] Built target joint_point_to_point_motion
+[135.853s] [ 84%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/logging/robot_state_logger_tests.cpp.o[0m
+[136.207s] [ 84%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/joint_velocity_limits_tests.cpp.o[0m
+[136.778s] [ 84%] [32m[1mLinking CXX executable motion_with_control[0m
+[137.172s] [ 84%] Built target motion_with_control
+[137.191s] [ 85%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/vacuum_gripper_command_tests.cpp.o[0m
+[138.191s] [ 85%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/robot_model_fk_tests.cpp.o[0m
+[138.467s] [ 85%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_tsan.dir/logging/logging_tests.cpp.o[0m
+[138.814s] [ 86%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_tsan.dir/logging/robot_state_logger_tests.cpp.o[0m
+[139.200s] [ 87%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/robot_jacobian_tests.cpp.o[0m
+[140.669s] [ 87%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/logging/logging_tests.cpp.o[0m
+[141.994s] [ 87%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_tsan.dir/joint_velocity_limits_tests.cpp.o[0m
+[142.543s] [ 88%] [32mBuilding CXX object examples/CMakeFiles/motion_with_control_external_control_loop.dir/motion_with_control_external_control_loop.cpp.o[0m
+[144.127s] [ 89%] [32mBuilding CXX object examples/CMakeFiles/print_joint_poses.dir/print_joint_poses.cpp.o[0m
+[144.567s] [ 89%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/robot_state_tests.cpp.o[0m
+[145.324s] [ 89%] [32m[1mLinking CXX executable motion_with_control_external_control_loop[0m
+[145.536s] [ 89%] [32m[1mLinking CXX executable print_joint_poses[0m
+[145.598s] [ 89%] Built target motion_with_control_external_control_loop
+[145.610s] [ 90%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/robot_tests.cpp.o[0m
+[145.625s] [ 91%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/logging/robot_state_logger_tests.cpp.o[0m
+[145.755s] [ 91%] Built target print_joint_poses
+[145.770s] [ 92%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/async_control/async_position_control_tests.cpp.o[0m
+[146.000s] [ 92%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/joint_velocity_limits_tests.cpp.o[0m
+[148.043s] [ 93%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/async_control/async_position_control_tests.cpp.o[0m
+[149.692s] [ 93%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/vacuum_gripper_tests.cpp.o[0m
+[151.238s] [ 93%] [32mBuilding CXX object examples/CMakeFiles/vacuum_object.dir/vacuum_object.cpp.o[0m
+[152.314s] [ 94%] [32m[1mLinking CXX executable vacuum_object[0m
+[152.557s] [ 94%] Built target vacuum_object
+[152.585s] [ 95%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_tsan.dir/async_control/async_position_control_tests.cpp.o[0m
+[152.633s] [ 96%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/vacuum_gripper_command_tests.cpp.o[0m
+[153.765s] [ 97%] [32mBuilding CXX object examples/utility_examples/CMakeFiles/logging_example.dir/logging_example.cpp.o[0m
+[154.176s] [ 97%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/logging/logging_tests.cpp.o[0m
+[155.142s] [ 97%] [32m[1mLinking CXX executable logging_example[0m
+[155.364s] [ 97%] Built target logging_example
+[155.380s] [ 98%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/logging/robot_state_logger_tests.cpp.o[0m
+[156.941s] [ 98%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/joint_velocity_limits_tests.cpp.o[0m
+[157.665s] [100%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/async_control/async_position_control_tests.cpp.o[0m
+[181.676s] [100%] [32m[1mLinking CXX executable run_all_tests_tsan[0m
+[183.108s] [100%] Built target run_all_tests_tsan
+[184.265s] [100%] [32m[1mLinking CXX executable run_all_tests[0m
+[184.921s] [100%] Built target run_all_tests
+[223.436s] [100%] [32m[1mLinking CXX executable run_all_tests_asan[0m
+[224.820s] [100%] Built target run_all_tests_asan
+[242.337s] [100%] [32m[1mLinking CXX executable run_all_tests_ubsan[0m
+[243.853s] [100%] Built target run_all_tests_ubsan
+[243.898s] Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/libfranka' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/libfranka -- -j16 -l16
+[243.923s] Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/libfranka': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dharmik.p45/Dharmik/berry_ws/build/libfranka
+[243.931s] -- Install configuration: "Release"
+[243.932s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/libfranka.so.0.19.0
+[243.934s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/libfranka.so.0.19
+[243.934s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/libfranka.so.0.19.0" to ""
+[243.934s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/libfranka.so
+[243.934s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include
+[243.934s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka
+[243.935s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/gripper_state.h
+[243.935s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/robot_state.h
+[243.935s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/robot.h
+[243.935s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/logging
+[243.935s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/logging/logger.hpp
+[243.935s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/logging/robot_state_log.hpp
+[243.935s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/logging/logging_sink_interface.hpp
+[243.935s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/logging/cout_logging_sink.hpp
+[243.935s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/robot_model_base.h
+[243.935s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/robot_model.h
+[243.936s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/active_control.h
+[243.936s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/control_types.h
+[243.936s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/vacuum_gripper_state.h
+[243.936s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/vacuum_gripper.h
+[243.936s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/lowpass_filter.h
+[243.936s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/active_motion_generator.h
+[243.936s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/active_torque_control.h
+[243.936s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/gripper.h
+[243.936s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/control_tools.h
+[243.936s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/model.h
+[243.937s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/exception.h
+[243.937s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/rate_limiting.h
+[243.937s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/active_control_base.h
+[243.937s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/errors.h
+[243.937s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/joint_velocity_limits.h
+[243.937s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/async_control
+[243.937s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/async_control/target_status.hpp
+[243.937s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/async_control/async_position_control_handler.hpp
+[243.937s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/commands
+[243.938s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/commands/get_robot_model_command.hpp
+[243.938s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/duration.h
+[243.938s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include
+[243.938s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/research_interface
+[243.938s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/research_interface/robot
+[243.938s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/research_interface/robot/service_types.h
+[243.938s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/research_interface/robot/error.h
+[243.938s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/research_interface/robot/rbk_types.h
+[243.938s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/research_interface/robot/service_traits.h
+[243.938s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/research_interface/vacuum_gripper
+[243.938s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/research_interface/vacuum_gripper/types.h
+[243.938s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/research_interface/gripper
+[243.939s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/research_interface/gripper/types.h
+[243.939s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/cmake/Franka/FrankaConfig.cmake
+[243.939s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/cmake/Franka/FrankaConfigVersion.cmake
+[243.939s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/cmake/Franka/FrankaTargets.cmake
+[243.939s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/cmake/Franka/FrankaTargets-release.cmake
+[243.939s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/async_position_control
+[243.940s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/async_position_control" to ""
+[243.940s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/cartesian_impedance_control
+[243.940s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/cartesian_impedance_control" to ""
+[243.940s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/communication_test
+[243.940s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/communication_test" to ""
+[243.941s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/echo_robot_state
+[243.941s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/echo_robot_state" to ""
+[243.941s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/force_control
+[243.941s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/force_control" to ""
+[243.941s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_cartesian_pose_motion
+[243.942s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_cartesian_pose_motion" to ""
+[243.942s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_cartesian_pose_motion_external_control_loop
+[243.942s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_cartesian_pose_motion_external_control_loop" to ""
+[243.942s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_cartesian_velocity_motion
+[243.942s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_cartesian_velocity_motion" to ""
+[243.942s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_cartesian_velocity_motion_external_control_loop
+[243.943s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_cartesian_velocity_motion_external_control_loop" to ""
+[243.943s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_consecutive_motions
+[243.943s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_consecutive_motions" to ""
+[243.943s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_elbow_motion
+[243.943s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_elbow_motion" to ""
+[243.944s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_joint_position_motion
+[243.944s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_joint_position_motion" to ""
+[243.944s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_joint_position_motion_external_control_loop
+[243.944s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_joint_position_motion_external_control_loop" to ""
+[243.944s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_joint_velocity_motion
+[243.945s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_joint_velocity_motion" to ""
+[243.945s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_joint_velocity_motion_external_control_loop
+[243.945s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_joint_velocity_motion_external_control_loop" to ""
+[243.945s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/grasp_object
+[243.946s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/grasp_object" to ""
+[243.946s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/joint_impedance_control
+[243.946s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/joint_impedance_control" to ""
+[243.947s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/joint_point_to_point_motion
+[243.947s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/joint_point_to_point_motion" to ""
+[243.947s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/motion_with_control
+[243.948s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/motion_with_control" to ""
+[243.948s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/motion_with_control_external_control_loop
+[243.948s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/motion_with_control_external_control_loop" to ""
+[243.948s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/print_joint_poses
+[243.949s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/print_joint_poses" to ""
+[243.949s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/vacuum_object
+[243.949s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/vacuum_object" to ""
+[243.949s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/logging_example
+[243.949s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/logging_example" to ""
+[243.951s] Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/libfranka' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dharmik.p45/Dharmik/berry_ws/build/libfranka

@@ -1,0 +1,231 @@
+[0.017s] Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/libfranka': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dharmik.p45/Dharmik/berry_ws/src/libfranka -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DBUILD_TESTS=OFF -DCMAKE_INSTALL_PREFIX=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka
+[0.055s] -- pinocchio_default FOUND. pinocchio_default at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_default.so
+[0.055s] -- pinocchio_parsers FOUND. pinocchio_parsers at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_parsers.so
+[0.055s] -- boost_filesystem FOUND. boost_filesystem at /lib/x86_64-linux-gnu/libboost_filesystem.so
+[0.064s] -- Found Boost: /usr/include (found version "1.74.0") found components: filesystem serialization system 
+[0.065s] -- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so
+[0.378s] -- PythonLibraryDirs: 
+[0.378s] -- PythonLibVersionString: 3.10.12
+[0.381s] -- Python site lib: lib/python3.10/site-packages
+[0.382s] -- Python include dirs: /usr/include/python3.10
+[0.409s] -- Checking for NumPy
+[0.500s] --   NUMPY_INCLUDE_DIRS=/home/dharmik.p45/.local/lib/python3.10/site-packages/numpy/_core/include
+[0.605s] --   NUMPY_VERSION=2.2.6
+[0.605s] -- NumPy include dir: /home/dharmik.p45/.local/lib/python3.10/site-packages/numpy/_core/include
+[0.608s] [33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+[0.608s]   No header defined for python310; skipping header check (note: header-only
+[0.608s]   libraries have no designated component)
+[0.608s] Call Stack (most recent call first):
+[0.608s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+[0.608s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+[0.608s]   /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+[0.608s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)
+[0.608s]   CMakeLists.txt:54 (find_package)
+[0.609s] 
+[0.609s] [0m
+[0.609s] -- Found Boost: /usr/include (found version "1.74.0") found components: python310 
+[0.828s] -- Default C++ standard: 201703
+[0.828s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[0.829s] -- hpp-fcl FOUND. hpp-fcl at /opt/ros/humble/lib/x86_64-linux-gnu/libhpp-fcl.so
+[0.834s] -- Found Boost: /usr/include (found version "1.74.0") found components: chrono serialization filesystem 
+[0.835s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[0.835s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[0.847s] -- Found fmt: 8.1.1
+[0.849s] -- Found fmt: 8.1.1
+[0.862s] -- .git directory found, setting version from latest git tag
+[0.865s] -- libfranka version: 0.20.4, Package tag: 0.20.4
+[0.897s] -- Configuring done
+[0.925s] -- Generating done
+[0.926s] [33mCMake Warning:
+[0.927s]   Manually-specified variables were not used by the project:
+[0.927s] 
+[0.927s]     BUILD_TESTING
+[0.927s] 
+[0.927s] [0m
+[0.935s] -- Build files have been written to: /home/dharmik.p45/Dharmik/berry_ws/build/libfranka
+[0.939s] Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/libfranka' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dharmik.p45/Dharmik/berry_ws/src/libfranka -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DBUILD_TESTS=OFF -DCMAKE_INSTALL_PREFIX=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka
+[0.941s] Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/libfranka': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/libfranka -- -j16 -l16
+[0.987s] [35m[1mConsolidate compiler generated dependencies of target franka[0m
+[1.048s] [  1%] [32mBuilding CXX object CMakeFiles/franka.dir/src/joint_velocity_limits.cpp.o[0m
+[1.051s] [  3%] [32mBuilding CXX object CMakeFiles/franka.dir/src/exception.cpp.o[0m
+[1.051s] [  3%] [32mBuilding CXX object CMakeFiles/franka.dir/src/control_loop.cpp.o[0m
+[1.051s] [  5%] [32mBuilding CXX object CMakeFiles/franka.dir/src/async_control/async_position_control_handler.cpp.o[0m
+[1.054s] [  7%] [32mBuilding CXX object CMakeFiles/franka.dir/src/robot_impl.cpp.o[0m
+[1.054s] [  7%] [32mBuilding CXX object CMakeFiles/franka.dir/src/rate_limiting.cpp.o[0m
+[3.662s] [  9%] [32m[1mLinking CXX shared library libfranka.so[0m
+[3.792s] [ 37%] Built target franka
+[3.799s] [35m[1mConsolidate compiler generated dependencies of target examples_common[0m
+[3.811s] [ 40%] Built target examples_common
+[3.821s] [35m[1mConsolidate compiler generated dependencies of target echo_robot_state[0m
+[3.825s] [35m[1mConsolidate compiler generated dependencies of target cartesian_impedance_control[0m
+[3.825s] [35m[1mConsolidate compiler generated dependencies of target communication_test[0m
+[3.825s] [35m[1mConsolidate compiler generated dependencies of target generate_cartesian_velocity_motion[0m
+[3.825s] [35m[1mConsolidate compiler generated dependencies of target force_control[0m
+[3.825s] [35m[1mConsolidate compiler generated dependencies of target generate_elbow_motion[0m
+[3.825s] [35m[1mConsolidate compiler generated dependencies of target generate_cartesian_pose_motion_external_control_loop[0m
+[3.825s] [35m[1mConsolidate compiler generated dependencies of target generate_cartesian_pose_motion[0m
+[3.826s] [35m[1mConsolidate compiler generated dependencies of target generate_consecutive_motions[0m
+[3.827s] [35m[1mConsolidate compiler generated dependencies of target generate_joint_position_motion_external_control_loop[0m
+[3.827s] [35m[1mConsolidate compiler generated dependencies of target generate_joint_position_motion[0m
+[3.827s] [35m[1mConsolidate compiler generated dependencies of target generate_joint_velocity_motion[0m
+[3.827s] [35m[1mConsolidate compiler generated dependencies of target generate_joint_velocity_motion_external_control_loop[0m
+[3.827s] [35m[1mConsolidate compiler generated dependencies of target grasp_object[0m
+[3.827s] [35m[1mConsolidate compiler generated dependencies of target generate_cartesian_velocity_motion_external_control_loop[0m
+[3.829s] [35m[1mConsolidate compiler generated dependencies of target async_position_control[0m
+[3.834s] [ 41%] [32m[1mLinking CXX executable echo_robot_state[0m
+[3.842s] [ 45%] [32m[1mLinking CXX executable generate_cartesian_pose_motion[0m
+[3.842s] [ 45%] [32m[1mLinking CXX executable force_control[0m
+[3.842s] [ 46%] [32m[1mLinking CXX executable generate_cartesian_pose_motion_external_control_loop[0m
+[3.842s] [ 48%] [32m[1mLinking CXX executable cartesian_impedance_control[0m
+[3.842s] [ 48%] [32m[1mLinking CXX executable generate_elbow_motion[0m
+[3.842s] [ 49%] [32m[1mLinking CXX executable communication_test[0m
+[3.843s] [ 50%] [32m[1mLinking CXX executable generate_cartesian_velocity_motion[0m
+[3.843s] [ 51%] [32m[1mLinking CXX executable generate_consecutive_motions[0m
+[3.845s] [ 53%] [32m[1mLinking CXX executable generate_joint_position_motion[0m
+[3.845s] [ 54%] [32m[1mLinking CXX executable grasp_object[0m
+[3.847s] [ 55%] [32mBuilding CXX object examples/CMakeFiles/generate_joint_position_motion_external_control_loop.dir/generate_joint_position_motion_external_control_loop.cpp.o[0m
+[3.850s] [ 58%] [32m[1mLinking CXX executable generate_cartesian_velocity_motion_external_control_loop[0m
+[3.852s] [ 58%] [32m[1mLinking CXX executable generate_joint_velocity_motion[0m
+[3.853s] [ 59%] [32m[1mLinking CXX executable generate_joint_velocity_motion_external_control_loop[0m
+[3.854s] [ 61%] [32m[1mLinking CXX executable async_position_control[0m
+[4.065s] [ 62%] Built target generate_cartesian_velocity_motion_external_control_loop
+[4.068s] [ 63%] Built target generate_cartesian_pose_motion_external_control_loop
+[4.069s] [ 66%] Built target generate_cartesian_pose_motion
+[4.069s] [ 66%] Built target echo_robot_state
+[4.071s] [ 67%] Built target communication_test
+[4.074s] [ 68%] Built target async_position_control
+[4.075s] [ 70%] Built target generate_joint_velocity_motion
+[4.077s] [ 71%] Built target generate_joint_position_motion
+[4.077s] [35m[1mConsolidate compiler generated dependencies of target joint_impedance_control[0m
+[4.081s] [ 72%] Built target cartesian_impedance_control
+[4.086s] [35m[1mConsolidate compiler generated dependencies of target motion_with_control[0m
+[4.087s] [35m[1mConsolidate compiler generated dependencies of target motion_with_control_external_control_loop[0m
+[4.087s] [ 74%] Built target generate_consecutive_motions
+[4.087s] [35m[1mConsolidate compiler generated dependencies of target print_joint_poses[0m
+[4.087s] [ 75%] Built target force_control
+[4.087s] [35m[1mConsolidate compiler generated dependencies of target logging_example[0m
+[4.087s] [ 76%] Built target generate_elbow_motion
+[4.088s] [35m[1mConsolidate compiler generated dependencies of target vacuum_object[0m
+[4.092s] [35m[1mConsolidate compiler generated dependencies of target joint_point_to_point_motion[0m
+[4.102s] [ 77%] [32m[1mLinking CXX executable print_joint_poses[0m
+[4.102s] [ 80%] [32m[1mLinking CXX executable motion_with_control[0m
+[4.102s] [ 80%] [32m[1mLinking CXX executable motion_with_control_external_control_loop[0m
+[4.103s] [ 81%] [32m[1mLinking CXX executable logging_example[0m
+[4.104s] [ 83%] [32mBuilding CXX object examples/CMakeFiles/joint_impedance_control.dir/joint_impedance_control.cpp.o[0m
+[4.105s] [ 84%] [32m[1mLinking CXX executable vacuum_object[0m
+[4.107s] [ 85%] [32m[1mLinking CXX executable joint_point_to_point_motion[0m
+[4.126s] [ 87%] Built target generate_cartesian_velocity_motion
+[4.138s] [ 88%] Built target grasp_object
+[4.168s] [ 89%] Built target generate_joint_velocity_motion_external_control_loop
+[4.220s] [ 90%] Built target vacuum_object
+[4.255s] [ 92%] Built target print_joint_poses
+[4.264s] [ 93%] Built target logging_example
+[4.265s] [ 94%] Built target motion_with_control
+[4.273s] [ 96%] Built target joint_point_to_point_motion
+[4.280s] [ 97%] Built target motion_with_control_external_control_loop
+[4.824s] [ 98%] [32m[1mLinking CXX executable generate_joint_position_motion_external_control_loop[0m
+[4.894s] [ 98%] Built target generate_joint_position_motion_external_control_loop
+[4.965s] [100%] [32m[1mLinking CXX executable joint_impedance_control[0m
+[5.033s] [100%] Built target joint_impedance_control
+[5.045s] Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/libfranka' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/libfranka -- -j16 -l16
+[5.047s] Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/libfranka': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dharmik.p45/Dharmik/berry_ws/build/libfranka
+[5.054s] -- Install configuration: "Release"
+[5.054s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/libfranka.so.0.20.4
+[5.055s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/libfranka.so.0.20
+[5.055s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/libfranka.so.0.20.4" to ""
+[5.055s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/libfranka.so
+[5.056s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include
+[5.056s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka
+[5.056s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/gripper_state.h
+[5.056s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/robot_state.h
+[5.056s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/robot.h
+[5.056s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/logging
+[5.056s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/logging/logger.hpp
+[5.056s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/logging/robot_state_log.hpp
+[5.056s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/logging/logging_sink_interface.hpp
+[5.056s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/logging/cout_logging_sink.hpp
+[5.057s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/robot_model_base.h
+[5.057s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/robot_model.h
+[5.057s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/active_control.h
+[5.057s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/control_types.h
+[5.057s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/vacuum_gripper_state.h
+[5.057s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/vacuum_gripper.h
+[5.057s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/lowpass_filter.h
+[5.057s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/active_motion_generator.h
+[5.057s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/active_torque_control.h
+[5.057s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/gripper.h
+[5.057s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/control_tools.h
+[5.057s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/model.h
+[5.057s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/exception.h
+[5.057s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/rate_limiting.h
+[5.057s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/active_control_base.h
+[5.058s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/errors.h
+[5.058s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/joint_velocity_limits.h
+[5.058s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/async_control
+[5.058s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/async_control/target_status.hpp
+[5.058s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/async_control/async_position_control_handler.hpp
+[5.058s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/commands
+[5.058s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/commands/get_robot_model_command.hpp
+[5.058s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/franka/duration.h
+[5.058s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include
+[5.058s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/research_interface
+[5.058s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/research_interface/robot
+[5.058s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/research_interface/robot/service_types.h
+[5.058s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/research_interface/robot/error.h
+[5.058s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/research_interface/robot/rbk_types.h
+[5.059s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/research_interface/robot/service_traits.h
+[5.059s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/research_interface/vacuum_gripper
+[5.059s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/research_interface/vacuum_gripper/types.h
+[5.059s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/research_interface/gripper
+[5.059s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/include/research_interface/gripper/types.h
+[5.059s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/cmake/Franka/FrankaConfig.cmake
+[5.059s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/cmake/Franka/FrankaConfigVersion.cmake
+[5.059s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/cmake/Franka/FrankaTargets.cmake
+[5.059s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/cmake/Franka/FrankaTargets-release.cmake
+[5.059s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/async_position_control
+[5.059s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/async_position_control" to ""
+[5.059s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/cartesian_impedance_control
+[5.059s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/cartesian_impedance_control" to ""
+[5.059s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/communication_test
+[5.059s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/communication_test" to ""
+[5.059s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/echo_robot_state
+[5.060s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/echo_robot_state" to ""
+[5.060s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/force_control
+[5.060s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/force_control" to ""
+[5.060s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_cartesian_pose_motion
+[5.060s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_cartesian_pose_motion" to ""
+[5.060s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_cartesian_pose_motion_external_control_loop
+[5.060s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_cartesian_pose_motion_external_control_loop" to ""
+[5.060s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_cartesian_velocity_motion
+[5.060s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_cartesian_velocity_motion" to ""
+[5.060s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_cartesian_velocity_motion_external_control_loop
+[5.060s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_cartesian_velocity_motion_external_control_loop" to ""
+[5.060s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_consecutive_motions
+[5.060s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_consecutive_motions" to ""
+[5.060s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_elbow_motion
+[5.060s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_elbow_motion" to ""
+[5.061s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_joint_position_motion
+[5.061s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_joint_position_motion" to ""
+[5.061s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_joint_position_motion_external_control_loop
+[5.061s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_joint_position_motion_external_control_loop" to ""
+[5.061s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_joint_velocity_motion
+[5.061s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_joint_velocity_motion" to ""
+[5.061s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_joint_velocity_motion_external_control_loop
+[5.061s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/generate_joint_velocity_motion_external_control_loop" to ""
+[5.061s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/grasp_object
+[5.061s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/grasp_object" to ""
+[5.062s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/joint_impedance_control
+[5.062s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/joint_impedance_control" to ""
+[5.062s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/joint_point_to_point_motion
+[5.062s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/joint_point_to_point_motion" to ""
+[5.062s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/motion_with_control
+[5.062s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/motion_with_control" to ""
+[5.062s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/motion_with_control_external_control_loop
+[5.062s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/motion_with_control_external_control_loop" to ""
+[5.062s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/print_joint_poses
+[5.062s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/print_joint_poses" to ""
+[5.062s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/vacuum_object
+[5.063s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/vacuum_object" to ""
+[5.063s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/logging_example
+[5.063s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin/logging_example" to ""
+[5.064s] Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/libfranka' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dharmik.p45/Dharmik/berry_ws/build/libfranka

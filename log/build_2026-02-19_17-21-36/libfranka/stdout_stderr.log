@@ -1,0 +1,78 @@
+-- The CXX compiler identification is GNU 12.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Eigen3: /usr/include/eigen3  
+-- pinocchio_default FOUND. pinocchio_default at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_default.so
+-- pinocchio_parsers FOUND. pinocchio_parsers at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_parsers.so
+-- boost_filesystem FOUND. boost_filesystem at /lib/x86_64-linux-gnu/libboost_filesystem.so
+-- Found Boost: /usr/include (found version "1.74.0") found components: filesystem serialization system 
+-- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so
+-- PythonLibraryDirs: 
+-- PythonLibVersionString: 3.10.12
+-- Python site lib: lib/python3.10/site-packages
+-- Python include dirs: /usr/include/python3.10
+-- Checking for NumPy
+--   NUMPY_INCLUDE_DIRS=/home/dharmik.p45/.local/lib/python3.10/site-packages/numpy/_core/include
+--   NUMPY_VERSION=2.2.6
+-- NumPy include dir: /home/dharmik.p45/.local/lib/python3.10/site-packages/numpy/_core/include
+[33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+  No header defined for python310; skipping header check (note: header-only
+  libraries have no designated component)
+Call Stack (most recent call first):
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)
+  CMakeLists.txt:54 (find_package)
+
+[0m
+-- Found Boost: /usr/include (found version "1.74.0") found components: python310 
+-- Default C++ standard: 201703
+-- Minimal C++ standard upgraded to 11
+-- C++ standard sufficient: Minimal required 11, currently defined: 17
+-- hpp-fcl FOUND. hpp-fcl at /opt/ros/humble/lib/x86_64-linux-gnu/libhpp-fcl.so
+-- Found Boost: /usr/include (found version "1.74.0") found components: chrono serialization filesystem 
+-- C++ standard sufficient: Minimal required 11, currently defined: 17
+-- C++ standard sufficient: Minimal required 11, currently defined: 17
+-- Found TinyXML2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so (found version "9.0.0") 
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found fmt: 8.1.1
+[31mCMake Error at CMakeLists.txt:85 (add_subdirectory):
+  The source directory
+
+    /home/dharmik.p45/Dharmik/berry_ws/src/libfranka/common
+
+  does not contain a CMakeLists.txt file.
+
+[0m
+[31mCMake Error at CMakeLists.txt:172 (install):
+  install TARGETS given target "libfranka-common" which does not exist.
+
+[0m
+[31mCMake Error at CMakeLists.txt:182 (export):
+  export Export set "FrankaTargets" not found.
+
+[0m
+-- googletest not found. Fetching googletest...
+-- The C compiler identification is GNU 12.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Performing Test HAVE_ASan
+-- Performing Test HAVE_ASan - Success
+-- Performing Test HAVE_UBSan
+-- Performing Test HAVE_UBSan - Success
+-- Performing Test HAVE_TSan
+-- Performing Test HAVE_TSan - Success
+-- Found fmt: 8.1.1
+-- Configuring incomplete, errors occurred!
+See also "/home/dharmik.p45/Dharmik/berry_ws/build/libfranka/CMakeFiles/CMakeOutput.log".

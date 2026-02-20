@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"examples/utility_examples/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"examples/utility_examples/logging_example"
+			],
+			"targetId" : "logging_example::@0f0e54afff3ae6b8a8ce",
+			"targetIndex" : 23,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "examples/utility_examples",
+		"source" : "examples/utility_examples"
+	}
+}

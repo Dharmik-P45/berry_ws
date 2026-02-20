@@ -1,0 +1,78 @@
+[0.015s] Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/libfranka': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/libfranka -- -j16 -l16
+[0.107s] -- pinocchio_default FOUND. pinocchio_default at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_default.so
+[0.108s] -- pinocchio_parsers FOUND. pinocchio_parsers at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_parsers.so
+[0.108s] -- boost_filesystem FOUND. boost_filesystem at /lib/x86_64-linux-gnu/libboost_filesystem.so
+[0.119s] -- Found Boost: /usr/include (found version "1.74.0") found components: filesystem serialization system 
+[0.120s] -- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so
+[0.435s] -- PythonLibraryDirs: 
+[0.435s] -- PythonLibVersionString: 3.10.12
+[0.446s] -- Python site lib: lib/python3.10/site-packages
+[0.446s] -- Python include dirs: /usr/include/python3.10
+[0.473s] -- Checking for NumPy
+[0.536s] --   NUMPY_INCLUDE_DIRS=/home/dharmik.p45/.local/lib/python3.10/site-packages/numpy/_core/include
+[0.597s] --   NUMPY_VERSION=2.2.6
+[0.597s] -- NumPy include dir: /home/dharmik.p45/.local/lib/python3.10/site-packages/numpy/_core/include
+[0.600s] [33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+[0.600s]   No header defined for python310; skipping header check (note: header-only
+[0.600s]   libraries have no designated component)
+[0.600s] Call Stack (most recent call first):
+[0.600s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+[0.600s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+[0.600s]   /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+[0.600s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)
+[0.600s]   CMakeLists.txt:54 (find_package)
+[0.600s] 
+[0.600s] [0m
+[0.600s] -- Found Boost: /usr/include (found version "1.74.0") found components: python310 
+[0.818s] -- Default C++ standard: 201703
+[0.818s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[0.819s] -- hpp-fcl FOUND. hpp-fcl at /opt/ros/humble/lib/x86_64-linux-gnu/libhpp-fcl.so
+[0.824s] -- Found Boost: /usr/include (found version "1.74.0") found components: chrono serialization filesystem 
+[0.826s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[0.827s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[0.844s] -- Found fmt: 8.1.1
+[0.852s] -- Found googletest: 1.11.0
+[0.854s] -- Found fmt: 8.1.1
+[0.869s] -- .git directory found, setting version from latest git tag
+[0.872s] -- libfranka version: 0.20.4, Package tag: 0.20.4
+[0.903s] -- Configuring done
+[0.908s] [31mCMake Error at test/CMakeLists.txt:27 (add_executable):
+[0.908s]   Target "run_all_tests" links to target "GTest::gmock" but the target was
+[0.908s]   not found.  Perhaps a find_package() call is missing for an IMPORTED
+[0.908s]   target, or an ALIAS target is missing?
+[0.908s] 
+[0.908s] [0m
+[0.908s] [31mCMake Error at test/CMakeLists.txt:27 (add_executable):
+[0.909s]   Target "run_all_tests" links to target "GTest::gmock_main" but the target
+[0.909s]   was not found.  Perhaps a find_package() call is missing for an IMPORTED
+[0.909s]   target, or an ALIAS target is missing?
+[0.909s] 
+[0.909s] [0m
+[0.909s] [31mCMake Error at test/CMakeLists.txt:120 (add_executable):
+[0.909s]   Target "run_all_tests_asan" links to target "GTest::gmock" but the target
+[0.909s]   was not found.  Perhaps a find_package() call is missing for an IMPORTED
+[0.909s]   target, or an ALIAS target is missing?
+[0.909s] 
+[0.909s] [0m
+[0.909s] [31mCMake Error at test/CMakeLists.txt:120 (add_executable):
+[0.909s]   Target "run_all_tests_asan" links to target "GTest::gmock_main" but the
+[0.910s]   target was not found.  Perhaps a find_package() call is missing for an
+[0.910s]   IMPORTED target, or an ALIAS target is missing?
+[0.910s] 
+[0.910s] [0m
+[0.910s] [31mCMake Error at test/CMakeLists.txt:120 (add_executable):
+[0.910s]   Target "run_all_tests_ubsan" links to target "GTest::gmock" but the target
+[0.910s]   was not found.  Perhaps a find_package() call is missing for an IMPORTED
+[0.910s]   target, or an ALIAS target is missing?
+[0.910s] 
+[0.910s] [0m
+[0.910s] [31mCMake Error at test/CMakeLists.txt:120 (add_executable):
+[0.910s]   Target "run_all_tests_ubsan" links to target "GTest::gmock_main" but the
+[0.911s]   target was not found.  Perhaps a find_package() call is missing for an
+[0.911s]   IMPORTED target, or an ALIAS target is missing?
+[0.911s] 
+[0.911s] [0m
+[0.959s] -- Generating done
+[0.961s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.966s] gmake: *** [Makefile:1494: cmake_check_build_system] Error 1
+[0.968s] Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/libfranka' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/libfranka -- -j16 -l16

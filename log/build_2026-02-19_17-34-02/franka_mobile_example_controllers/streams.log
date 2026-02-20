@@ -1,0 +1,84 @@
+[0.019s] Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_mobile_example_controllers': AMENT_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware/lib:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin:${PATH} PKG_CONFIG_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/x86_64-linux-gnu/pkgconfig:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/pkgconfig PYTHONPATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_mobile_example_controllers -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DBUILD_TESTS=OFF -DCMAKE_INSTALL_PREFIX=/home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers
+[0.065s] -- The C compiler identification is GNU 12.3.0
+[0.128s] -- The CXX compiler identification is GNU 12.3.0
+[0.136s] -- Detecting C compiler ABI info
+[0.201s] -- Detecting C compiler ABI info - done
+[0.206s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.207s] -- Detecting C compile features
+[0.207s] -- Detecting C compile features - done
+[0.209s] -- Detecting CXX compiler ABI info
+[0.302s] -- Detecting CXX compiler ABI info - done
+[0.311s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.311s] -- Detecting CXX compile features
+[0.312s] -- Detecting CXX compile features - done
+[0.315s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.473s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.545s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.546s] -- Found controller_interface: 2.53.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.578s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.581s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.588s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.596s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.608s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.765s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.768s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.789s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.097s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.126s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.242s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.266s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.320s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.354s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.375s] -- Looking for pthread.h
+[1.499s] -- Looking for pthread.h - found
+[1.500s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.590s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.592s] -- Found Threads: TRUE  
+[1.646s] -- Found franka_msgs: 2.2.0 (/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/share/franka_msgs/cmake)
+[1.667s] -- Found franka_semantic_components: 2.2.0 (/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components/share/franka_semantic_components/cmake)
+[1.696s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.772s] -- Configuring done
+[1.792s] -- Generating done
+[1.793s] [33mCMake Warning:
+[1.793s]   Manually-specified variables were not used by the project:
+[1.794s] 
+[1.794s]     BUILD_TESTS
+[1.794s] 
+[1.794s] [0m
+[1.797s] -- Build files have been written to: /home/dharmik.p45/Dharmik/berry_ws/build/franka_mobile_example_controllers
+[1.808s] Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_mobile_example_controllers' returned '0': AMENT_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware/lib:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin:${PATH} PKG_CONFIG_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/x86_64-linux-gnu/pkgconfig:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/pkgconfig PYTHONPATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_mobile_example_controllers -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DBUILD_TESTS=OFF -DCMAKE_INSTALL_PREFIX=/home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers
+[1.810s] Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_mobile_example_controllers': AMENT_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware/lib:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin:${PATH} PKG_CONFIG_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/x86_64-linux-gnu/pkgconfig:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/pkgconfig PYTHONPATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/franka_mobile_example_controllers -- -j16 -l16
+[1.866s] [ 50%] [32mBuilding CXX object CMakeFiles/franka_mobile_example_controllers.dir/src/mobile_cartesian_velocity_example_controller.cpp.o[0m
+[19.169s] [100%] [32m[1mLinking CXX shared library libfranka_mobile_example_controllers.so[0m
+[19.336s] [100%] Built target franka_mobile_example_controllers
+[19.345s] Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_mobile_example_controllers' returned '0': AMENT_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware/lib:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin:${PATH} PKG_CONFIG_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/x86_64-linux-gnu/pkgconfig:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/pkgconfig PYTHONPATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/franka_mobile_example_controllers -- -j16 -l16
+[19.348s] Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_mobile_example_controllers': AMENT_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware/lib:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin:${PATH} PKG_CONFIG_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/x86_64-linux-gnu/pkgconfig:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/pkgconfig PYTHONPATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dharmik.p45/Dharmik/berry_ws/build/franka_mobile_example_controllers
+[19.353s] -- Install configuration: "Release"
+[19.353s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers/share/franka_mobile_example_controllers/franka_mobile_example_controllers.xml
+[19.353s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers/lib/libfranka_mobile_example_controllers.so
+[19.354s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers/lib/libfranka_mobile_example_controllers.so" to ""
+[19.355s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers/include
+[19.355s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers/include/franka_mobile_example_controllers
+[19.355s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers/include/franka_mobile_example_controllers/mobile_cartesian_velocity_example_controller.hpp
+[19.355s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers/share/franka_mobile_example_controllers/environment/library_path.sh
+[19.356s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers/share/franka_mobile_example_controllers/environment/library_path.dsv
+[19.356s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers/share/ament_index/resource_index/package_run_dependencies/franka_mobile_example_controllers
+[19.356s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers/share/ament_index/resource_index/parent_prefix_path/franka_mobile_example_controllers
+[19.356s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers/share/franka_mobile_example_controllers/environment/ament_prefix_path.sh
+[19.357s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers/share/franka_mobile_example_controllers/environment/ament_prefix_path.dsv
+[19.357s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers/share/franka_mobile_example_controllers/environment/path.sh
+[19.357s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers/share/franka_mobile_example_controllers/environment/path.dsv
+[19.358s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers/share/franka_mobile_example_controllers/local_setup.bash
+[19.359s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers/share/franka_mobile_example_controllers/local_setup.sh
+[19.359s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers/share/franka_mobile_example_controllers/local_setup.zsh
+[19.359s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers/share/franka_mobile_example_controllers/local_setup.dsv
+[19.359s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers/share/franka_mobile_example_controllers/package.dsv
+[19.360s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers/share/ament_index/resource_index/packages/franka_mobile_example_controllers
+[19.360s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/franka_mobile_example_controllers
+[19.360s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers/share/franka_mobile_example_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.360s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers/share/franka_mobile_example_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[19.361s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers/share/franka_mobile_example_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.361s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers/share/franka_mobile_example_controllers/cmake/franka_mobile_example_controllersConfig.cmake
+[19.361s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers/share/franka_mobile_example_controllers/cmake/franka_mobile_example_controllersConfig-version.cmake
+[19.361s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers/share/franka_mobile_example_controllers/package.xml
+[19.371s] Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_mobile_example_controllers' returned '0': AMENT_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware/lib:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin:${PATH} PKG_CONFIG_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/x86_64-linux-gnu/pkgconfig:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/pkgconfig PYTHONPATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dharmik.p45/Dharmik/berry_ws/build/franka_mobile_example_controllers

@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from franka_msgs/msg/TargetStatus.msg
+// generated code does not contain a copyright notice
+
+
+module franka_msgs {
+  module msg {
+    module TargetStatus_Constants {
+      const uint8 IDLE = 0;
+      @verbatim (language="comment", text=
+        "EXECUTING: The robot is currently executing the motion")
+      const uint8 EXECUTING = 1;
+      @verbatim (language="comment", text=
+        "TARGET_REACHED: The robot has reached the target position given two conditions:" "\n"        "- the absolute difference between the current and goal joint positions is within the goal_tolerance" "\n"        "- the joint velocities are below a small threshold")
+      const uint8 TARGET_REACHED = 2;
+      @verbatim (language="comment", text=
+        "ABORTED: The motion was aborted due to an error or external intervention")
+      const uint8 ABORTED = 3;
+    };
+    @verbatim (language="comment", text=
+      "The status of a motion action" "\n"
+      "IDLE: The robot is idle, no motion is being executed")
+    struct TargetStatus {
+      @verbatim (language="comment", text=
+        "The current status of the motion (one of the above states)")
+      uint8 status;
+    };
+  };
+};

@@ -1,0 +1,43 @@
+-- The C compiler identification is GNU 12.3.0
+-- The CXX compiler identification is GNU 12.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dharmik.p45/Dharmik/berry_ws/build/franka_fr3_moveit_config
+-- Install configuration: "Release"
+-- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_fr3_moveit_config/share/franka_fr3_moveit_config/config
+-- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_fr3_moveit_config/share/franka_fr3_moveit_config/config/kinematics.yaml
+-- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_fr3_moveit_config/share/franka_fr3_moveit_config/config/fr3_controllers.yaml
+-- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_fr3_moveit_config/share/franka_fr3_moveit_config/config/ompl_planning.yaml
+-- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_fr3_moveit_config/share/franka_fr3_moveit_config/config/fr3_ros_controllers.yaml
+-- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_fr3_moveit_config/share/franka_fr3_moveit_config/launch
+-- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_fr3_moveit_config/share/franka_fr3_moveit_config/launch/moveit.launch.py
+-- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_fr3_moveit_config/share/franka_fr3_moveit_config/launch/move_group.launch.py
+-- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_fr3_moveit_config/share/franka_fr3_moveit_config/rviz
+-- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_fr3_moveit_config/share/franka_fr3_moveit_config/rviz/moveit.rviz
+-- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_fr3_moveit_config/share/ament_index/resource_index/package_run_dependencies/franka_fr3_moveit_config
+-- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_fr3_moveit_config/share/ament_index/resource_index/parent_prefix_path/franka_fr3_moveit_config
+-- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_fr3_moveit_config/share/franka_fr3_moveit_config/environment/ament_prefix_path.sh
+-- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_fr3_moveit_config/share/franka_fr3_moveit_config/environment/ament_prefix_path.dsv
+-- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_fr3_moveit_config/share/franka_fr3_moveit_config/environment/path.sh
+-- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_fr3_moveit_config/share/franka_fr3_moveit_config/environment/path.dsv
+-- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_fr3_moveit_config/share/franka_fr3_moveit_config/local_setup.bash
+-- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_fr3_moveit_config/share/franka_fr3_moveit_config/local_setup.sh
+-- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_fr3_moveit_config/share/franka_fr3_moveit_config/local_setup.zsh
+-- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_fr3_moveit_config/share/franka_fr3_moveit_config/local_setup.dsv
+-- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_fr3_moveit_config/share/franka_fr3_moveit_config/package.dsv
+-- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_fr3_moveit_config/share/ament_index/resource_index/packages/franka_fr3_moveit_config
+-- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_fr3_moveit_config/share/franka_fr3_moveit_config/cmake/franka_fr3_moveit_configConfig.cmake
+-- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_fr3_moveit_config/share/franka_fr3_moveit_config/cmake/franka_fr3_moveit_configConfig-version.cmake
+-- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_fr3_moveit_config/share/franka_fr3_moveit_config/package.xml

@@ -1,0 +1,49 @@
+[33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+  No header defined for python310; skipping header check (note: header-only
+  libraries have no designated component)
+Call Stack (most recent call first):
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)
+  CMakeLists.txt:54 (find_package)
+
+[0m
+[31mCMake Error at test/CMakeLists.txt:27 (add_executable):
+  Target "run_all_tests" links to target "GTest::gmock" but the target was
+  not found.  Perhaps a find_package() call is missing for an IMPORTED
+  target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at test/CMakeLists.txt:27 (add_executable):
+  Target "run_all_tests" links to target "GTest::gmock_main" but the target
+  was not found.  Perhaps a find_package() call is missing for an IMPORTED
+  target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at test/CMakeLists.txt:120 (add_executable):
+  Target "run_all_tests_asan" links to target "GTest::gmock" but the target
+  was not found.  Perhaps a find_package() call is missing for an IMPORTED
+  target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at test/CMakeLists.txt:120 (add_executable):
+  Target "run_all_tests_asan" links to target "GTest::gmock_main" but the
+  target was not found.  Perhaps a find_package() call is missing for an
+  IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at test/CMakeLists.txt:120 (add_executable):
+  Target "run_all_tests_ubsan" links to target "GTest::gmock" but the target
+  was not found.  Perhaps a find_package() call is missing for an IMPORTED
+  target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at test/CMakeLists.txt:120 (add_executable):
+  Target "run_all_tests_ubsan" links to target "GTest::gmock_main" but the
+  target was not found.  Perhaps a find_package() call is missing for an
+  IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+gmake: *** [Makefile:1494: cmake_check_build_system] Error 1

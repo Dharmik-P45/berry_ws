@@ -1,0 +1,380 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f0753cf77013ccf8ad81.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						8,
+						9,
+						27
+					]
+				},
+				{
+					"build" : "common",
+					"jsonFile" : "directory-common-Release-6a5c22a1ee7f2aca6d8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "common"
+				},
+				{
+					"build" : "examples",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples-Release-04636f91b3d43b0fdbe6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "examples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						4,
+						5,
+						6,
+						7,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						24,
+						25,
+						26,
+						28
+					]
+				},
+				{
+					"build" : "examples/utility_examples",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.utility_examples-Release-a0add9cbeccde6244535.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "examples/utility_examples",
+					"targetIndexes" : 
+					[
+						23
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "libfranka",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						8,
+						9,
+						27
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "libfranka-examples",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						4,
+						5,
+						6,
+						7,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						28
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "async_position_control::@714eac15f71a94114fdf",
+					"jsonFile" : "target-async_position_control-Release-fc50ff8e708443182fe1.json",
+					"name" : "async_position_control",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "cartesian_impedance_control::@714eac15f71a94114fdf",
+					"jsonFile" : "target-cartesian_impedance_control-Release-a001dc189325804a6558.json",
+					"name" : "cartesian_impedance_control",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "check-format::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-check-format-Release-bf46a3315eeb644c0774.json",
+					"name" : "check-format",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "check-tidy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-check-tidy-Release-01fd26a94f4c469870e3.json",
+					"name" : "check-tidy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "communication_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-communication_test-Release-f685a13aaa78dc8498ce.json",
+					"name" : "communication_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "echo_robot_state::@714eac15f71a94114fdf",
+					"jsonFile" : "target-echo_robot_state-Release-620d5e6b86419c4d3eba.json",
+					"name" : "echo_robot_state",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "examples_common::@714eac15f71a94114fdf",
+					"jsonFile" : "target-examples_common-Release-dd8d612e93a5a61c1147.json",
+					"name" : "examples_common",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "force_control::@714eac15f71a94114fdf",
+					"jsonFile" : "target-force_control-Release-2a0d4f0a2d7a92eb5035.json",
+					"name" : "force_control",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "format::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-format-Release-f52639b2d3ba8597eda6.json",
+					"name" : "format",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka-Release-d9876524e42af299bd5d.json",
+					"name" : "franka",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generate_cartesian_pose_motion::@714eac15f71a94114fdf",
+					"jsonFile" : "target-generate_cartesian_pose_motion-Release-4bdbaffadb1db699c052.json",
+					"name" : "generate_cartesian_pose_motion",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generate_cartesian_pose_motion_external_control_loop::@714eac15f71a94114fdf",
+					"jsonFile" : "target-generate_cartesian_pose_motion_external_control_loop-Release-43a75912c220c57f95fb.json",
+					"name" : "generate_cartesian_pose_motion_external_control_loop",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generate_cartesian_velocity_motion::@714eac15f71a94114fdf",
+					"jsonFile" : "target-generate_cartesian_velocity_motion-Release-6e395f53357e203d6da8.json",
+					"name" : "generate_cartesian_velocity_motion",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generate_cartesian_velocity_motion_external_control_loop::@714eac15f71a94114fdf",
+					"jsonFile" : "target-generate_cartesian_velocity_motion_external_control_loop-Release-edd47be2c71a03028ce1.json",
+					"name" : "generate_cartesian_velocity_motion_external_control_loop",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generate_consecutive_motions::@714eac15f71a94114fdf",
+					"jsonFile" : "target-generate_consecutive_motions-Release-aa317c3bb974fa501267.json",
+					"name" : "generate_consecutive_motions",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generate_elbow_motion::@714eac15f71a94114fdf",
+					"jsonFile" : "target-generate_elbow_motion-Release-c1c550b2b030f19850ac.json",
+					"name" : "generate_elbow_motion",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generate_joint_position_motion::@714eac15f71a94114fdf",
+					"jsonFile" : "target-generate_joint_position_motion-Release-d8ab5128e3bf8ccfd3cb.json",
+					"name" : "generate_joint_position_motion",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generate_joint_position_motion_external_control_loop::@714eac15f71a94114fdf",
+					"jsonFile" : "target-generate_joint_position_motion_external_control_loop-Release-e9d9d4230da2210aecec.json",
+					"name" : "generate_joint_position_motion_external_control_loop",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generate_joint_velocity_motion::@714eac15f71a94114fdf",
+					"jsonFile" : "target-generate_joint_velocity_motion-Release-c93e0615e9df23c3d551.json",
+					"name" : "generate_joint_velocity_motion",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generate_joint_velocity_motion_external_control_loop::@714eac15f71a94114fdf",
+					"jsonFile" : "target-generate_joint_velocity_motion_external_control_loop-Release-9033f437db794a3f1f4d.json",
+					"name" : "generate_joint_velocity_motion_external_control_loop",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "grasp_object::@714eac15f71a94114fdf",
+					"jsonFile" : "target-grasp_object-Release-c8b06428931c8239c14e.json",
+					"name" : "grasp_object",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "joint_impedance_control::@714eac15f71a94114fdf",
+					"jsonFile" : "target-joint_impedance_control-Release-28abbc1b2b07d70f4fe7.json",
+					"name" : "joint_impedance_control",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "joint_point_to_point_motion::@714eac15f71a94114fdf",
+					"jsonFile" : "target-joint_point_to_point_motion-Release-da37fce47c517ff33cad.json",
+					"name" : "joint_point_to_point_motion",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "logging_example::@0f0e54afff3ae6b8a8ce",
+					"jsonFile" : "target-logging_example-Release-ad50634bf9c0766af326.json",
+					"name" : "logging_example",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "motion_with_control::@714eac15f71a94114fdf",
+					"jsonFile" : "target-motion_with_control-Release-e25a6eb69407af655fa0.json",
+					"name" : "motion_with_control",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "motion_with_control_external_control_loop::@714eac15f71a94114fdf",
+					"jsonFile" : "target-motion_with_control_external_control_loop-Release-3ac13a05ffea25d6613a.json",
+					"name" : "motion_with_control_external_control_loop",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "print_joint_poses::@714eac15f71a94114fdf",
+					"jsonFile" : "target-print_joint_poses-Release-b6e4dc5c85629e42730f.json",
+					"name" : "print_joint_poses",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tidy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tidy-Release-430a818b7d6403b84a08.json",
+					"name" : "tidy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "vacuum_object::@714eac15f71a94114fdf",
+					"jsonFile" : "target-vacuum_object-Release-d41368b51680e6e809bb.json",
+					"name" : "vacuum_object",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dharmik.p45/Dharmik/berry_ws/build/libfranka",
+		"source" : "/home/dharmik.p45/Dharmik/berry_ws/src/libfranka"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

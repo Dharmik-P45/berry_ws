@@ -1,0 +1,15 @@
+/home/dharmik.p45/Dharmik/berry_ws/install/franka_ros2/share/ament_index/resource_index/package_run_dependencies/franka_ros2
+/home/dharmik.p45/Dharmik/berry_ws/install/franka_ros2/share/ament_index/resource_index/parent_prefix_path/franka_ros2
+/home/dharmik.p45/Dharmik/berry_ws/install/franka_ros2/share/franka_ros2/environment/ament_prefix_path.sh
+/home/dharmik.p45/Dharmik/berry_ws/install/franka_ros2/share/franka_ros2/environment/ament_prefix_path.dsv
+/home/dharmik.p45/Dharmik/berry_ws/install/franka_ros2/share/franka_ros2/environment/path.sh
+/home/dharmik.p45/Dharmik/berry_ws/install/franka_ros2/share/franka_ros2/environment/path.dsv
+/home/dharmik.p45/Dharmik/berry_ws/install/franka_ros2/share/franka_ros2/local_setup.bash
+/home/dharmik.p45/Dharmik/berry_ws/install/franka_ros2/share/franka_ros2/local_setup.sh
+/home/dharmik.p45/Dharmik/berry_ws/install/franka_ros2/share/franka_ros2/local_setup.zsh
+/home/dharmik.p45/Dharmik/berry_ws/install/franka_ros2/share/franka_ros2/local_setup.dsv
+/home/dharmik.p45/Dharmik/berry_ws/install/franka_ros2/share/franka_ros2/package.dsv
+/home/dharmik.p45/Dharmik/berry_ws/install/franka_ros2/share/ament_index/resource_index/packages/franka_ros2
+/home/dharmik.p45/Dharmik/berry_ws/install/franka_ros2/share/franka_ros2/cmake/franka_ros2Config.cmake
+/home/dharmik.p45/Dharmik/berry_ws/install/franka_ros2/share/franka_ros2/cmake/franka_ros2Config-version.cmake
+/home/dharmik.p45/Dharmik/berry_ws/install/franka_ros2/share/franka_ros2/package.xml

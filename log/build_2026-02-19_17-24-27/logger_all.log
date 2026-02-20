@@ -1,0 +1,658 @@
+[0.061s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[0.061s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7857c502e140>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7857c502dbd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7857c502dbd0>>, mixin_verb=('build',))
+[0.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.147s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dharmik.p45/Dharmik/berry_ws'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_description) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_description) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_description) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_description) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_description) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_description) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_description) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_description) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_description) by extension 'ros'
+[0.156s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_description' with type 'ros.ament_cmake' and name 'franka_description'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extensions ['python_setup_py']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extension 'python_setup_py'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs) by extension 'ros'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs) by extensions ['cmake', 'python']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs) by extension 'cmake'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs) by extension 'python'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs) by extensions ['python_setup_py']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs) by extension 'python_setup_py'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs/assets) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs/assets) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs/assets) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs/assets) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs/assets) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs/assets) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs/assets) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs/assets) by extension 'ros'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs/assets) by extensions ['cmake', 'python']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs/assets) by extension 'cmake'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs/assets) by extension 'python'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs/assets) by extensions ['python_setup_py']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/docs/assets) by extension 'python_setup_py'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_bringup) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_bringup) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_bringup) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_bringup) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_bringup) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_bringup) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_bringup) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_bringup) by extension 'ros'
+[0.158s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_bringup' with type 'ros.ament_cmake' and name 'franka_bringup'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_example_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_example_controllers) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_example_controllers) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_example_controllers) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_example_controllers) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_example_controllers) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_example_controllers) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_example_controllers) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_example_controllers) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_example_controllers' with type 'ros.ament_cmake' and name 'franka_example_controllers'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_fr3_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_fr3_moveit_config) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_fr3_moveit_config) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_fr3_moveit_config) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_fr3_moveit_config) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_fr3_moveit_config) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_fr3_moveit_config) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_fr3_moveit_config) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_fr3_moveit_config) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_fr3_moveit_config' with type 'ros.ament_cmake' and name 'franka_fr3_moveit_config'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo) by extension 'ros'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo) by extensions ['cmake', 'python']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo) by extension 'cmake'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo) by extension 'python'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo) by extensions ['python_setup_py']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo) by extension 'python_setup_py'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/doc) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/doc) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/doc) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/doc) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/doc) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/doc) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/doc) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/doc) by extension 'ros'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/doc) by extensions ['cmake', 'python']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/doc) by extension 'cmake'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/doc) by extension 'python'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/doc) by extensions ['python_setup_py']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/doc) by extension 'python_setup_py'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/franka_gazebo_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/franka_gazebo_bringup) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/franka_gazebo_bringup) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/franka_gazebo_bringup) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/franka_gazebo_bringup) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/franka_gazebo_bringup) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/franka_gazebo_bringup) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/franka_gazebo_bringup) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/franka_gazebo_bringup) by extension 'ros'
+[0.161s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_gazebo/franka_gazebo_bringup' with type 'ros.ament_cmake' and name 'franka_gazebo_bringup'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/franka_ign_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/franka_ign_ros2_control) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/franka_ign_ros2_control) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/franka_ign_ros2_control) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/franka_ign_ros2_control) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/franka_ign_ros2_control) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/franka_ign_ros2_control) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/franka_ign_ros2_control) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gazebo/franka_ign_ros2_control) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_gazebo/franka_ign_ros2_control' with type 'ros.ament_cmake' and name 'franka_ign_ros2_control'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gripper) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gripper) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gripper) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gripper) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gripper) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gripper) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gripper) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gripper) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gripper) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_gripper' with type 'ros.ament_cmake' and name 'franka_gripper'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_hardware) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_hardware) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_hardware) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_hardware) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_hardware) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_hardware) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_hardware) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_hardware) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_hardware' with type 'ros.ament_cmake' and name 'franka_hardware'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_mobile_example_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_mobile_example_controllers) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_mobile_example_controllers) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_mobile_example_controllers) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_mobile_example_controllers) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_mobile_example_controllers) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_mobile_example_controllers) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_mobile_example_controllers) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_mobile_example_controllers) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_mobile_example_controllers' with type 'ros.ament_cmake' and name 'franka_mobile_example_controllers'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_mobile_sensors) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_mobile_sensors) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_mobile_sensors) ignored
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_msgs) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_msgs) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_msgs) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_msgs) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_msgs) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_msgs) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_msgs) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_msgs) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_msgs' with type 'ros.ament_cmake' and name 'franka_msgs'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_robot_state_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_robot_state_broadcaster) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_robot_state_broadcaster) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_robot_state_broadcaster) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_robot_state_broadcaster) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_robot_state_broadcaster) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_robot_state_broadcaster) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_robot_state_broadcaster) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_robot_state_broadcaster) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_robot_state_broadcaster' with type 'ros.ament_cmake' and name 'franka_robot_state_broadcaster'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_ros2) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_ros2) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_ros2) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_ros2) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_ros2) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_ros2) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_ros2) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_ros2) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_ros2' with type 'ros.ament_cmake' and name 'franka_ros2'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_semantic_components) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_semantic_components) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_semantic_components) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_semantic_components) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_semantic_components) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_semantic_components) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_semantic_components) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_semantic_components) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_semantic_components) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_semantic_components' with type 'ros.ament_cmake' and name 'franka_semantic_components'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/integration_launch_testing) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/integration_launch_testing) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/integration_launch_testing) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/integration_launch_testing) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/integration_launch_testing) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/integration_launch_testing) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/integration_launch_testing) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/integration_launch_testing) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/integration_launch_testing) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/integration_launch_testing' with type 'ros.ament_cmake' and name 'integration_launch_testing'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfranka) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfranka) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfranka) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfranka) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfranka) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfranka) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfranka) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfranka) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfranka) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'src/libfranka' with type 'ros.cmake' and name 'libfranka'
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.192s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/dharmik.p45/Dharmik/berry_ws/install
+[0.193s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 337 installed packages in /opt/ros/humble
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_target' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.216s] DEBUG:colcon.colcon_core.verb:Building package 'franka_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dharmik.p45/Dharmik/berry_ws/build/franka_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description', 'merge_install': False, 'path': '/home/dharmik.p45/Dharmik/berry_ws/src/franka_description', 'symlink_install': False, 'test_result_base': None}
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'cmake_target' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.216s] DEBUG:colcon.colcon_core.verb:Building package 'franka_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dharmik.p45/Dharmik/berry_ws/build/franka_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs', 'merge_install': False, 'path': '/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'integration_launch_testing' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'integration_launch_testing' build argument 'cmake_target' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'integration_launch_testing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'integration_launch_testing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'integration_launch_testing' build argument 'cmake_clean_first' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'integration_launch_testing' build argument 'cmake_force_configure' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'integration_launch_testing' build argument 'ament_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'integration_launch_testing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'integration_launch_testing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.217s] DEBUG:colcon.colcon_core.verb:Building package 'integration_launch_testing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dharmik.p45/Dharmik/berry_ws/build/integration_launch_testing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing', 'merge_install': False, 'path': '/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/integration_launch_testing', 'symlink_install': False, 'test_result_base': None}
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'libfranka' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'libfranka' build argument 'cmake_target' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'libfranka' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'libfranka' build argument 'cmake_clean_cache' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'libfranka' build argument 'cmake_clean_first' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'libfranka' build argument 'cmake_force_configure' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'libfranka' build argument 'ament_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'libfranka' build argument 'catkin_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'libfranka' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.217s] DEBUG:colcon.colcon_core.verb:Building package 'libfranka' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dharmik.p45/Dharmik/berry_ws/build/libfranka', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka', 'merge_install': False, 'path': '/home/dharmik.p45/Dharmik/berry_ws/src/libfranka', 'symlink_install': False, 'test_result_base': None}
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'cmake_target' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'cmake_clean_cache' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'cmake_clean_first' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'cmake_force_configure' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'ament_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'catkin_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.217s] DEBUG:colcon.colcon_core.verb:Building package 'franka_gripper' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dharmik.p45/Dharmik/berry_ws/build/franka_gripper', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper', 'merge_install': False, 'path': '/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_gripper', 'symlink_install': False, 'test_result_base': None}
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'cmake_target' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.217s] DEBUG:colcon.colcon_core.verb:Building package 'franka_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dharmik.p45/Dharmik/berry_ws/build/franka_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware', 'merge_install': False, 'path': '/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_hardware', 'symlink_install': False, 'test_result_base': None}
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_fr3_moveit_config' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_fr3_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_fr3_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_fr3_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_fr3_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_fr3_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_fr3_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_fr3_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_fr3_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.218s] DEBUG:colcon.colcon_core.verb:Building package 'franka_fr3_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dharmik.p45/Dharmik/berry_ws/build/franka_fr3_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dharmik.p45/Dharmik/berry_ws/install/franka_fr3_moveit_config', 'merge_install': False, 'path': '/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_fr3_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_ign_ros2_control' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_ign_ros2_control' build argument 'cmake_target' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_ign_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_ign_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_ign_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_ign_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_ign_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_ign_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_ign_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.218s] DEBUG:colcon.colcon_core.verb:Building package 'franka_ign_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dharmik.p45/Dharmik/berry_ws/build/franka_ign_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dharmik.p45/Dharmik/berry_ws/install/franka_ign_ros2_control', 'merge_install': False, 'path': '/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control', 'symlink_install': False, 'test_result_base': None}
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'cmake_target' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'cmake_clean_cache' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'cmake_clean_first' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'cmake_force_configure' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'ament_cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'catkin_cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.218s] DEBUG:colcon.colcon_core.verb:Building package 'franka_semantic_components' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dharmik.p45/Dharmik/berry_ws/build/franka_semantic_components', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components', 'merge_install': False, 'path': '/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_semantic_components', 'symlink_install': False, 'test_result_base': None}
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'cmake_target' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.219s] DEBUG:colcon.colcon_core.verb:Building package 'franka_example_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dharmik.p45/Dharmik/berry_ws/build/franka_example_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dharmik.p45/Dharmik/berry_ws/install/franka_example_controllers', 'merge_install': False, 'path': '/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_example_controllers', 'symlink_install': False, 'test_result_base': None}
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_gazebo_bringup' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_gazebo_bringup' build argument 'cmake_target' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_gazebo_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_gazebo_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_gazebo_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_gazebo_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_gazebo_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_gazebo_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_gazebo_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.219s] DEBUG:colcon.colcon_core.verb:Building package 'franka_gazebo_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dharmik.p45/Dharmik/berry_ws/build/franka_gazebo_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dharmik.p45/Dharmik/berry_ws/install/franka_gazebo_bringup', 'merge_install': False, 'path': '/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_gazebo/franka_gazebo_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_mobile_example_controllers' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_mobile_example_controllers' build argument 'cmake_target' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_mobile_example_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_mobile_example_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_mobile_example_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_mobile_example_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_mobile_example_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_mobile_example_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_mobile_example_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.219s] DEBUG:colcon.colcon_core.verb:Building package 'franka_mobile_example_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dharmik.p45/Dharmik/berry_ws/build/franka_mobile_example_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dharmik.p45/Dharmik/berry_ws/install/franka_mobile_example_controllers', 'merge_install': False, 'path': '/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_mobile_example_controllers', 'symlink_install': False, 'test_result_base': None}
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'cmake_target' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.219s] DEBUG:colcon.colcon_core.verb:Building package 'franka_robot_state_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dharmik.p45/Dharmik/berry_ws/build/franka_robot_state_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster', 'merge_install': False, 'path': '/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_robot_state_broadcaster', 'symlink_install': False, 'test_result_base': None}
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_target' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.220s] DEBUG:colcon.colcon_core.verb:Building package 'franka_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dharmik.p45/Dharmik/berry_ws/build/franka_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dharmik.p45/Dharmik/berry_ws/install/franka_bringup', 'merge_install': False, 'path': '/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'franka_ros2' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'franka_ros2' build argument 'cmake_target' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'franka_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'franka_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'franka_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'franka_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'franka_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'franka_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'franka_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.220s] DEBUG:colcon.colcon_core.verb:Building package 'franka_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dharmik.p45/Dharmik/berry_ws/build/franka_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dharmik.p45/Dharmik/berry_ws/install/franka_ros2', 'merge_install': False, 'path': '/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.220s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.221s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.221s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_msgs' with build type 'ament_cmake'
+[0.221s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_msgs'
+[0.223s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.223s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.223s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.225s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/dharmik.p45/Dharmik/berry_ws/src/libfranka' with build type 'cmake'
+[0.225s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dharmik.p45/Dharmik/berry_ws/src/libfranka'
+[0.225s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.225s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.227s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dharmik.p45/Dharmik/berry_ws/src/franka_description' with build type 'ament_cmake'
+[0.227s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dharmik.p45/Dharmik/berry_ws/src/franka_description'
+[0.228s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.228s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.229s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/integration_launch_testing' with build type 'ament_cmake'
+[0.230s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/integration_launch_testing'
+[0.230s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.230s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/franka_msgs -- -j16 -l16
+[0.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/libfranka': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dharmik.p45/Dharmik/berry_ws/src/libfranka -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka
+[0.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/franka_description -- -j16 -l16
+[0.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/integration_launch_testing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/integration_launch_testing -- -j16 -l16
+[0.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/franka_description -- -j16 -l16
+[0.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dharmik.p45/Dharmik/berry_ws/build/franka_description
+[0.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/integration_launch_testing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/integration_launch_testing -- -j16 -l16
+[0.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/integration_launch_testing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dharmik.p45/Dharmik/berry_ws/build/integration_launch_testing
+[0.287s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(integration_launch_testing)
+[0.291s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing' for CMake module files
+[0.292s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing' for CMake config files
+[0.292s] Level 1:colcon.colcon_core.shell:create_environment_hook('integration_launch_testing', 'cmake_prefix_path')
+[0.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/hook/cmake_prefix_path.ps1'
+[0.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/hook/cmake_prefix_path.dsv'
+[0.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/hook/cmake_prefix_path.sh'
+[0.296s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/bin'
+[0.296s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/lib/pkgconfig/integration_launch_testing.pc'
+[0.297s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/lib/python3.10/site-packages'
+[0.297s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/bin'
+[0.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/package.ps1'
+[0.299s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/package.dsv'
+[0.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/package.sh'
+[0.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/package.bash'
+[0.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/package.zsh'
+[0.303s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/colcon-core/packages/integration_launch_testing)
+[0.304s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(integration_launch_testing)
+[0.305s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing' for CMake module files
+[0.306s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing' for CMake config files
+[0.308s] Level 1:colcon.colcon_core.shell:create_environment_hook('integration_launch_testing', 'cmake_prefix_path')
+[0.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/hook/cmake_prefix_path.ps1'
+[0.310s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/hook/cmake_prefix_path.dsv'
+[0.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/hook/cmake_prefix_path.sh'
+[0.312s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/bin'
+[0.312s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/lib/pkgconfig/integration_launch_testing.pc'
+[0.312s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/lib/python3.10/site-packages'
+[0.313s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/bin'
+[0.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/package.ps1'
+[0.314s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/package.dsv'
+[0.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/package.sh'
+[0.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/package.bash'
+[0.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/package.zsh'
+[0.318s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/colcon-core/packages/integration_launch_testing)
+[0.319s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_description)
+[0.319s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description' for CMake module files
+[0.320s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description' for CMake config files
+[0.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_description', 'cmake_prefix_path')
+[0.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/hook/cmake_prefix_path.ps1'
+[0.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/hook/cmake_prefix_path.dsv'
+[0.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/hook/cmake_prefix_path.sh'
+[0.325s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description/bin'
+[0.326s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description/lib/pkgconfig/franka_description.pc'
+[0.326s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description/lib/python3.10/site-packages'
+[0.326s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description/bin'
+[0.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/package.ps1'
+[0.327s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/package.dsv'
+[0.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/package.sh'
+[0.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/package.bash'
+[0.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/package.zsh'
+[0.328s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/colcon-core/packages/franka_description)
+[0.329s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_description)
+[0.329s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description' for CMake module files
+[0.329s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description' for CMake config files
+[0.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/integration_launch_testing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dharmik.p45/Dharmik/berry_ws/build/integration_launch_testing
+[0.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dharmik.p45/Dharmik/berry_ws/build/franka_description
+[0.334s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_description', 'cmake_prefix_path')
+[0.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/hook/cmake_prefix_path.ps1'
+[0.334s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/hook/cmake_prefix_path.dsv'
+[0.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/hook/cmake_prefix_path.sh'
+[0.335s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description/bin'
+[0.335s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description/lib/pkgconfig/franka_description.pc'
+[0.336s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description/lib/python3.10/site-packages'
+[0.336s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description/bin'
+[0.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/package.ps1'
+[0.336s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/package.dsv'
+[0.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/package.sh'
+[0.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/package.bash'
+[0.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/package.zsh'
+[0.337s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/colcon-core/packages/franka_description)
+[0.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/franka_msgs -- -j16 -l16
+[0.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dharmik.p45/Dharmik/berry_ws/build/franka_msgs
+[0.596s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_msgs)
+[0.597s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs' for CMake module files
+[0.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dharmik.p45/Dharmik/berry_ws/build/franka_msgs
+[0.598s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs' for CMake config files
+[0.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_msgs', 'cmake_prefix_path')
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/share/franka_msgs/hook/cmake_prefix_path.ps1'
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/share/franka_msgs/hook/cmake_prefix_path.dsv'
+[0.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/share/franka_msgs/hook/cmake_prefix_path.sh'
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib'
+[0.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_msgs', 'ld_library_path_lib')
+[0.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/share/franka_msgs/hook/ld_library_path_lib.ps1'
+[0.601s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/share/franka_msgs/hook/ld_library_path_lib.dsv'
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/share/franka_msgs/hook/ld_library_path_lib.sh'
+[0.602s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/bin'
+[0.602s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib/pkgconfig/franka_msgs.pc'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib/python3.10/site-packages'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/bin'
+[0.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/share/franka_msgs/package.ps1'
+[0.604s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/share/franka_msgs/package.dsv'
+[0.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/share/franka_msgs/package.sh'
+[0.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/share/franka_msgs/package.bash'
+[0.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/share/franka_msgs/package.zsh'
+[0.606s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/share/colcon-core/packages/franka_msgs)
+[0.606s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_msgs)
+[0.607s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs' for CMake module files
+[0.607s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs' for CMake config files
+[0.608s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_msgs', 'cmake_prefix_path')
+[0.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/share/franka_msgs/hook/cmake_prefix_path.ps1'
+[0.609s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/share/franka_msgs/hook/cmake_prefix_path.dsv'
+[0.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/share/franka_msgs/hook/cmake_prefix_path.sh'
+[0.609s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib'
+[0.609s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_msgs', 'ld_library_path_lib')
+[0.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/share/franka_msgs/hook/ld_library_path_lib.ps1'
+[0.609s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/share/franka_msgs/hook/ld_library_path_lib.dsv'
+[0.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/share/franka_msgs/hook/ld_library_path_lib.sh'
+[0.610s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/bin'
+[0.610s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib/pkgconfig/franka_msgs.pc'
+[0.610s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib/python3.10/site-packages'
+[0.610s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/bin'
+[0.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/share/franka_msgs/package.ps1'
+[0.611s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/share/franka_msgs/package.dsv'
+[0.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/share/franka_msgs/package.sh'
+[0.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/share/franka_msgs/package.bash'
+[0.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/share/franka_msgs/package.zsh'
+[0.611s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/share/colcon-core/packages/franka_msgs)
+[1.347s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/libfranka' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dharmik.p45/Dharmik/berry_ws/src/libfranka -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka
+[1.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/libfranka': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/libfranka -- -j16 -l16
+[244.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/libfranka' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/libfranka -- -j16 -l16
+[244.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/libfranka': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dharmik.p45/Dharmik/berry_ws/build/libfranka
+[244.177s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/libfranka' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dharmik.p45/Dharmik/berry_ws/build/libfranka
+[244.178s] Level 1:colcon.colcon_core.shell:create_environment_hook('libfranka', 'pkg_config_path')
+[244.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/share/libfranka/hook/pkg_config_path.ps1'
+[244.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/share/libfranka/hook/pkg_config_path.dsv'
+[244.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/share/libfranka/hook/pkg_config_path.sh'
+[244.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('libfranka', 'pkg_config_path_multiarch')
+[244.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/share/libfranka/hook/pkg_config_path_multiarch.ps1'
+[244.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/share/libfranka/hook/pkg_config_path_multiarch.dsv'
+[244.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/share/libfranka/hook/pkg_config_path_multiarch.sh'
+[244.221s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libfranka)
+[244.222s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka' for CMake module files
+[244.223s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka' for CMake config files
+[244.224s] Level 1:colcon.colcon_core.shell:create_environment_hook('libfranka', 'cmake_prefix_path')
+[244.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/share/libfranka/hook/cmake_prefix_path.ps1'
+[244.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/share/libfranka/hook/cmake_prefix_path.dsv'
+[244.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/share/libfranka/hook/cmake_prefix_path.sh'
+[244.227s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib'
+[244.228s] Level 1:colcon.colcon_core.shell:create_environment_hook('libfranka', 'ld_library_path_lib')
+[244.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/share/libfranka/hook/ld_library_path_lib.ps1'
+[244.229s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/share/libfranka/hook/ld_library_path_lib.dsv'
+[244.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/share/libfranka/hook/ld_library_path_lib.sh'
+[244.230s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin'
+[244.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('libfranka', 'path')
+[244.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/share/libfranka/hook/path.ps1'
+[244.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/share/libfranka/hook/path.dsv'
+[244.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/share/libfranka/hook/path.sh'
+[244.232s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/pkgconfig/libfranka.pc'
+[244.235s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/python3.10/site-packages'
+[244.235s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin'
+[244.236s] Level 1:colcon.colcon_core.shell:create_environment_hook('libfranka', 'pythonscriptspath')
+[244.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/share/libfranka/hook/pythonscriptspath.ps1'
+[244.236s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/share/libfranka/hook/pythonscriptspath.dsv'
+[244.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/share/libfranka/hook/pythonscriptspath.sh'
+[244.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/share/libfranka/package.ps1'
+[244.239s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/share/libfranka/package.dsv'
+[244.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/share/libfranka/package.sh'
+[244.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/share/libfranka/package.bash'
+[244.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/share/libfranka/package.zsh'
+[244.242s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/share/colcon-core/packages/libfranka)
+[244.244s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_hardware' with build type 'ament_cmake'
+[244.245s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_hardware'
+[244.245s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[244.245s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[244.254s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_gripper' with build type 'ament_cmake'
+[244.254s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_gripper'
+[244.254s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[244.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[244.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_gripper': AMENT_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin:${PATH} PKG_CONFIG_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/x86_64-linux-gnu/pkgconfig:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/pkgconfig PYTHONPATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/franka_gripper -- -j16 -l16
+[244.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_hardware': AMENT_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin:${PATH} PKG_CONFIG_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/x86_64-linux-gnu/pkgconfig:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/pkgconfig PYTHONPATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/franka_hardware -- -j16 -l16
+[244.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_hardware' returned '2': AMENT_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin:${PATH} PKG_CONFIG_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/x86_64-linux-gnu/pkgconfig:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/pkgconfig PYTHONPATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/franka_hardware -- -j16 -l16
+[244.630s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_hardware)
+[244.630s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware' for CMake module files
+[244.631s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware' for CMake config files
+[244.631s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware/bin'
+[244.631s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware/lib/pkgconfig/franka_hardware.pc'
+[244.632s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware/lib/python3.10/site-packages'
+[244.632s] Level 1:colcon.colcon_core.environment:checking '/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware/bin'
+[244.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware/share/franka_hardware/package.ps1'
+[244.633s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware/share/franka_hardware/package.dsv'
+[244.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware/share/franka_hardware/package.sh'
+[244.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware/share/franka_hardware/package.bash'
+[244.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware/share/franka_hardware/package.zsh'
+[244.635s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware/share/colcon-core/packages/franka_hardware)
+[244.764s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[244.766s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[244.767s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[244.768s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[244.798s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[244.799s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[244.799s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[244.851s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[244.852s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dharmik.p45/Dharmik/berry_ws/install/local_setup.ps1'
+[244.853s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dharmik.p45/Dharmik/berry_ws/install/_local_setup_util_ps1.py'
+[244.854s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dharmik.p45/Dharmik/berry_ws/install/setup.ps1'
+[244.855s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dharmik.p45/Dharmik/berry_ws/install/local_setup.sh'
+[244.856s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dharmik.p45/Dharmik/berry_ws/install/_local_setup_util_sh.py'
+[244.857s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dharmik.p45/Dharmik/berry_ws/install/setup.sh'
+[244.858s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dharmik.p45/Dharmik/berry_ws/install/local_setup.bash'
+[244.858s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dharmik.p45/Dharmik/berry_ws/install/setup.bash'
+[244.859s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dharmik.p45/Dharmik/berry_ws/install/local_setup.zsh'
+[244.859s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dharmik.p45/Dharmik/berry_ws/install/setup.zsh'

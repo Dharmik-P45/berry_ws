@@ -1,0 +1,38 @@
+[0.014s] Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/integration_launch_testing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/integration_launch_testing -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DBUILD_TESTS=OFF -DCMAKE_INSTALL_PREFIX=/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing
+[0.023s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.206s] -- Configuring done
+[0.211s] -- Generating done
+[0.215s] [33mCMake Warning:
+[0.215s]   Manually-specified variables were not used by the project:
+[0.215s] 
+[0.215s]     BUILD_TESTS
+[0.215s] 
+[0.216s] [0m
+[0.217s] -- Build files have been written to: /home/dharmik.p45/Dharmik/berry_ws/build/integration_launch_testing
+[0.233s] Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/integration_launch_testing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/integration_launch_testing -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DBUILD_TESTS=OFF -DCMAKE_INSTALL_PREFIX=/home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing
+[0.233s] Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/integration_launch_testing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/integration_launch_testing -- -j16 -l16
+[0.270s] Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/integration_launch_testing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/integration_launch_testing -- -j16 -l16
+[0.282s] Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/integration_launch_testing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dharmik.p45/Dharmik/berry_ws/build/integration_launch_testing
+[0.365s] -- Install configuration: "Release"
+[0.365s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/test
+[0.365s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/test/test_move_to_start_example_controller.py
+[0.365s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/test/test_franka_gripper_position.py
+[0.365s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/environment/library_path.sh
+[0.365s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/environment/library_path.dsv
+[0.365s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/ament_index/resource_index/package_run_dependencies/integration_launch_testing
+[0.365s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/ament_index/resource_index/parent_prefix_path/integration_launch_testing
+[0.365s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/environment/ament_prefix_path.sh
+[0.365s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/environment/ament_prefix_path.dsv
+[0.365s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/environment/path.sh
+[0.365s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/environment/path.dsv
+[0.365s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/local_setup.bash
+[0.365s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/local_setup.sh
+[0.365s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/local_setup.zsh
+[0.365s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/local_setup.dsv
+[0.365s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/package.dsv
+[0.366s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/ament_index/resource_index/packages/integration_launch_testing
+[0.366s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/cmake/ament_cmake_export_libraries-extras.cmake
+[0.366s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/cmake/integration_launch_testingConfig.cmake
+[0.366s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/cmake/integration_launch_testingConfig-version.cmake
+[0.366s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/integration_launch_testing/share/integration_launch_testing/package.xml
+[0.370s] Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/integration_launch_testing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dharmik.p45/Dharmik/berry_ws/build/integration_launch_testing

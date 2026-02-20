@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/grasp_object.dir/grasp_object.cpp.o -o grasp_object  -Wl,-rpath,/home/dharmik.p45/Dharmik/berry_ws/build/libfranka: libexamples_common.a ../libfranka.so.0.20.4 /usr/lib/x86_64-linux-gnu/libfmt.so.8.1.1 -Wl,--as-needed 

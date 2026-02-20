@@ -1,0 +1,76 @@
+-- pinocchio_default FOUND. pinocchio_default at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_default.so
+-- pinocchio_parsers FOUND. pinocchio_parsers at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_parsers.so
+-- boost_filesystem FOUND. boost_filesystem at /lib/x86_64-linux-gnu/libboost_filesystem.so
+-- Found Boost: /usr/include (found version "1.74.0") found components: filesystem serialization system 
+-- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so
+-- PythonLibraryDirs: 
+-- PythonLibVersionString: 3.10.12
+-- Python site lib: lib/python3.10/site-packages
+-- Python include dirs: /usr/include/python3.10
+-- Checking for NumPy
+--   NUMPY_INCLUDE_DIRS=/home/dharmik.p45/.local/lib/python3.10/site-packages/numpy/_core/include
+--   NUMPY_VERSION=2.2.6
+-- NumPy include dir: /home/dharmik.p45/.local/lib/python3.10/site-packages/numpy/_core/include
+[33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+  No header defined for python310; skipping header check (note: header-only
+  libraries have no designated component)
+Call Stack (most recent call first):
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)
+  CMakeLists.txt:54 (find_package)
+
+[0m
+-- Found Boost: /usr/include (found version "1.74.0") found components: python310 
+-- Default C++ standard: 201703
+-- C++ standard sufficient: Minimal required 11, currently defined: 17
+-- hpp-fcl FOUND. hpp-fcl at /opt/ros/humble/lib/x86_64-linux-gnu/libhpp-fcl.so
+-- Found Boost: /usr/include (found version "1.74.0") found components: chrono serialization filesystem 
+-- C++ standard sufficient: Minimal required 11, currently defined: 17
+-- C++ standard sufficient: Minimal required 11, currently defined: 17
+-- Found fmt: 8.1.1
+-- Found googletest: 1.11.0
+-- Found fmt: 8.1.1
+-- .git directory found, setting version from latest git tag
+-- libfranka version: 0.20.4, Package tag: 0.20.4
+-- Configuring done
+[31mCMake Error at test/CMakeLists.txt:27 (add_executable):
+  Target "run_all_tests" links to target "GTest::gmock" but the target was
+  not found.  Perhaps a find_package() call is missing for an IMPORTED
+  target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at test/CMakeLists.txt:27 (add_executable):
+  Target "run_all_tests" links to target "GTest::gmock_main" but the target
+  was not found.  Perhaps a find_package() call is missing for an IMPORTED
+  target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at test/CMakeLists.txt:120 (add_executable):
+  Target "run_all_tests_asan" links to target "GTest::gmock" but the target
+  was not found.  Perhaps a find_package() call is missing for an IMPORTED
+  target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at test/CMakeLists.txt:120 (add_executable):
+  Target "run_all_tests_asan" links to target "GTest::gmock_main" but the
+  target was not found.  Perhaps a find_package() call is missing for an
+  IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at test/CMakeLists.txt:120 (add_executable):
+  Target "run_all_tests_ubsan" links to target "GTest::gmock" but the target
+  was not found.  Perhaps a find_package() call is missing for an IMPORTED
+  target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at test/CMakeLists.txt:120 (add_executable):
+  Target "run_all_tests_ubsan" links to target "GTest::gmock_main" but the
+  target was not found.  Perhaps a find_package() call is missing for an
+  IMPORTED target, or an ALIAS target is missing?
+
+[0m
+-- Generating done
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+gmake: *** [Makefile:1494: cmake_check_build_system] Error 1

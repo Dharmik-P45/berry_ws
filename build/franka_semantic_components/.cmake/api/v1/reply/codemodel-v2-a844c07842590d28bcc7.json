@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-561eac814bdb61ef6d9c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "franka_semantic_components",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_semantic_components::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_semantic_components-Release-112beece33ea6d5fd218.json",
+					"name" : "franka_semantic_components",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_semantic_components_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_semantic_components_uninstall-Release-dadc5c672c04ac88672a.json",
+					"name" : "franka_semantic_components_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-fd8ece0646b7aaf50e40.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dharmik.p45/Dharmik/berry_ws/build/franka_semantic_components",
+		"source" : "/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_semantic_components"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,93 @@
+[0.017s] Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_robot_state_broadcaster': AMENT_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware/lib:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin:${PATH} PKG_CONFIG_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/x86_64-linux-gnu/pkgconfig:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/pkgconfig PYTHONPATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_robot_state_broadcaster -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DBUILD_TESTS=OFF -DCMAKE_INSTALL_PREFIX=/home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster
+[0.070s] -- The C compiler identification is GNU 12.3.0
+[0.114s] -- The CXX compiler identification is GNU 12.3.0
+[0.123s] -- Detecting C compiler ABI info
+[0.194s] -- Detecting C compiler ABI info - done
+[0.199s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.199s] -- Detecting C compile features
+[0.200s] -- Detecting C compile features - done
+[0.203s] -- Detecting CXX compiler ABI info
+[0.281s] -- Detecting CXX compiler ABI info - done
+[0.291s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.291s] -- Detecting CXX compile features
+[0.292s] -- Detecting CXX compile features - done
+[0.295s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.475s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.558s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.589s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.596s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.606s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.622s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.641s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.652s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.738s] -- Found controller_interface: 2.53.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.806s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.808s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.882s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.322s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.334s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.375s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.381s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.404s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.432s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.451s] -- Looking for pthread.h
+[1.550s] -- Looking for pthread.h - found
+[1.550s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.644s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.645s] -- Found Threads: TRUE  
+[1.710s] -- Found controller_manager: 2.53.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.745s] -- Found franka_msgs: 2.2.0 (/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/share/franka_msgs/cmake)
+[1.762s] -- Found franka_semantic_components: 2.2.0 (/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components/share/franka_semantic_components/cmake)
+[1.787s] -- Found generate_parameter_library: 0.6.0 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[1.790s] -- Found parameter_traits: 0.6.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.822s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.937s] -- Configuring done
+[1.959s] -- Generating done
+[1.960s] [33mCMake Warning:
+[1.960s]   Manually-specified variables were not used by the project:
+[1.960s] 
+[1.961s]     BUILD_TESTS
+[1.961s] 
+[1.961s] [0m
+[1.964s] -- Build files have been written to: /home/dharmik.p45/Dharmik/berry_ws/build/franka_robot_state_broadcaster
+[1.976s] Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_robot_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware/lib:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin:${PATH} PKG_CONFIG_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/x86_64-linux-gnu/pkgconfig:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/pkgconfig PYTHONPATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_robot_state_broadcaster -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DBUILD_TESTS=OFF -DCMAKE_INSTALL_PREFIX=/home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster
+[1.977s] Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_robot_state_broadcaster': AMENT_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware/lib:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin:${PATH} PKG_CONFIG_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/x86_64-linux-gnu/pkgconfig:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/pkgconfig PYTHONPATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/franka_robot_state_broadcaster -- -j16 -l16
+[2.024s] [ 25%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/dharmik.p45/Dharmik/berry_ws/build/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster/franka_robot_state_broadcaster_parameters.hpp /home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_robot_state_broadcaster/src/franka_robot_state_broadcaster_parameters.yaml `[0m
+[2.164s] [ 50%] [34m[1mCreating deprecated header file /home/dharmik.p45/Dharmik/berry_ws/build/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster_parameters.hpp[0m
+[2.183s] [ 50%] Built target franka_robot_state_broadcaster_parameters
+[2.205s] [ 75%] [32mBuilding CXX object CMakeFiles/franka_robot_state_broadcaster.dir/src/franka_robot_state_broadcaster.cpp.o[0m
+[18.490s] [100%] [32m[1mLinking CXX shared library libfranka_robot_state_broadcaster.so[0m
+[18.677s] [100%] Built target franka_robot_state_broadcaster
+[18.690s] Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_robot_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware/lib:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin:${PATH} PKG_CONFIG_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/x86_64-linux-gnu/pkgconfig:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/pkgconfig PYTHONPATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/franka_robot_state_broadcaster -- -j16 -l16
+[18.692s] Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_robot_state_broadcaster': AMENT_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware/lib:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin:${PATH} PKG_CONFIG_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/x86_64-linux-gnu/pkgconfig:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/pkgconfig PYTHONPATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dharmik.p45/Dharmik/berry_ws/build/franka_robot_state_broadcaster
+[18.701s] -- Install configuration: "Release"
+[18.701s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster
+[18.701s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster/franka_robot_state_broadcaster_parameters.hpp
+[18.701s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/franka_robot_state_broadcaster.xml
+[18.702s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/lib/libfranka_robot_state_broadcaster.so
+[18.703s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/lib/libfranka_robot_state_broadcaster.so" to ""
+[18.703s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/include
+[18.704s] -- Up-to-date: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster
+[18.704s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster/franka_robot_state_broadcaster.hpp
+[18.704s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/library_path.sh
+[18.704s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/library_path.dsv
+[18.704s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/package_run_dependencies/franka_robot_state_broadcaster
+[18.705s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/parent_prefix_path/franka_robot_state_broadcaster
+[18.705s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/ament_prefix_path.sh
+[18.705s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/ament_prefix_path.dsv
+[18.705s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/path.sh
+[18.705s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/path.dsv
+[18.706s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.bash
+[18.706s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.sh
+[18.706s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.zsh
+[18.706s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.dsv
+[18.706s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.dsv
+[18.707s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/packages/franka_robot_state_broadcaster
+[18.707s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/franka_robot_state_broadcaster
+[18.707s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.707s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.708s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/ament_cmake_export_libraries-extras.cmake
+[18.708s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/franka_robot_state_broadcasterConfig.cmake
+[18.708s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/franka_robot_state_broadcasterConfig-version.cmake
+[18.708s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.xml
+[18.711s] Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_robot_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_semantic_components/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_hardware/lib:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin:${PATH} PKG_CONFIG_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/x86_64-linux-gnu/pkgconfig:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/pkgconfig PYTHONPATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dharmik.p45/Dharmik/berry_ws/build/franka_robot_state_broadcaster

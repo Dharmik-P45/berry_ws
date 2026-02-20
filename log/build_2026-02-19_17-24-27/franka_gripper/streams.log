@@ -1,0 +1,13 @@
+[0.017s] Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_gripper': AMENT_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin:${PATH} PKG_CONFIG_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/x86_64-linux-gnu/pkgconfig:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/pkgconfig PYTHONPATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/franka_gripper -- -j16 -l16
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target gripper_server[0m
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target franka_gripper_node[0m
+[0.060s] [  0%] Built target ament_cmake_python_copy_franka_gripper
+[0.070s] [ 50%] Built target gripper_server
+[0.075s] [100%] Built target franka_gripper_node
+[0.462s] running egg_info
+[0.463s] writing franka_gripper.egg-info/PKG-INFO
+[0.463s] writing dependency_links to franka_gripper.egg-info/dependency_links.txt
+[0.463s] writing top-level names to franka_gripper.egg-info/top_level.txt
+[0.464s] reading manifest file 'franka_gripper.egg-info/SOURCES.txt'
+[0.465s] writing manifest file 'franka_gripper.egg-info/SOURCES.txt'
+[0.483s] [100%] Built target ament_cmake_python_build_franka_gripper_egg

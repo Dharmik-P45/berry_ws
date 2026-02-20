@@ -1,0 +1,2 @@
+Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/libfranka': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dharmik.p45/Dharmik/berry_ws/src/libfranka -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka
+Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/libfranka' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dharmik.p45/Dharmik/berry_ws/src/libfranka -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka

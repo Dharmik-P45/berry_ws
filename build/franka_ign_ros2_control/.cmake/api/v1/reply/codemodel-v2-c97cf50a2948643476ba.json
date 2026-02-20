@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-329202c102bcd66e7f66.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "franka_ign_ros2_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_ign_ros2_control-system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_ign_ros2_control-system-Release-2b32fd7d9eca7efdb6a0.json",
+					"name" : "franka_ign_ros2_control-system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_ign_ros2_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_ign_ros2_control_uninstall-Release-76cbcf837f48da5fd3dd.json",
+					"name" : "franka_ign_ros2_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ign_hardware_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ign_hardware_plugins-Release-7b302065e8c2307ccd89.json",
+					"name" : "ign_hardware_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-3bf18c8d6b92842b9c3c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dharmik.p45/Dharmik/berry_ws/build/franka_ign_ros2_control",
+		"source" : "/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

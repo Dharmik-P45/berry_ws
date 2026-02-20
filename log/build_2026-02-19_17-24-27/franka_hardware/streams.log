@@ -1,0 +1,34 @@
+[0.024s] Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_hardware': AMENT_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin:${PATH} PKG_CONFIG_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/x86_64-linux-gnu/pkgconfig:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/pkgconfig PYTHONPATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/franka_hardware -- -j16 -l16
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target franka_hardware[0m
+[0.083s] [ 14%] Built target gmock
+[0.083s] [ 23%] Built target gmock_main
+[0.091s] [ 28%] [32mBuilding CXX object CMakeFiles/franka_hardware.dir/src/franka_action_server.cpp.o[0m
+[0.092s] [ 38%] [32mBuilding CXX object CMakeFiles/franka_hardware.dir/src/franka_hardware_interface.cpp.o[0m
+[0.092s] [ 38%] [32mBuilding CXX object CMakeFiles/franka_hardware.dir/src/actions_helper/ptp_motion_handler.cpp.o[0m
+[0.202s] In file included from [01m[K/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_hardware/src/actions_helper/ptp_motion_handler.cpp:15[m[K:
+[0.202s] [01m[K/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_hardware/include/franka_hardware/actions_helper/ptp_motion_handler.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kfranka/async_control/async_position_control_handler.hpp: No such file or directory
+[0.202s]    21 | #include [01;31m[K<franka/async_control/async_position_control_handler.hpp>[m[K
+[0.202s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.202s] compilation terminated.
+[0.203s] gmake[2]: *** [CMakeFiles/franka_hardware.dir/build.make:160: CMakeFiles/franka_hardware.dir/src/actions_helper/ptp_motion_handler.cpp.o] Error 1
+[0.203s] gmake[2]: *** Waiting for unfinished jobs....
+[0.248s] In file included from [01m[K/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_hardware/include/franka_hardware/franka_action_server.hpp:22[m[K,
+[0.248s]                  from [01m[K/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_hardware/src/franka_action_server.cpp:15[m[K:
+[0.248s] [01m[K/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_hardware/include/franka_hardware/actions_helper/ptp_motion_handler.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kfranka/async_control/async_position_control_handler.hpp: No such file or directory
+[0.248s]    21 | #include [01;31m[K<franka/async_control/async_position_control_handler.hpp>[m[K
+[0.248s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.248s] compilation terminated.
+[0.249s] gmake[2]: *** [CMakeFiles/franka_hardware.dir/build.make:76: CMakeFiles/franka_hardware.dir/src/franka_action_server.cpp.o] Error 1
+[0.376s] In file included from [01m[K/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_hardware/include/franka_hardware/franka_action_server.hpp:22[m[K,
+[0.376s]                  from [01m[K/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_hardware/include/franka_hardware/franka_hardware_interface.hpp:34[m[K,
+[0.376s]                  from [01m[K/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_hardware/src/franka_hardware_interface.cpp:30[m[K:
+[0.376s] [01m[K/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_hardware/include/franka_hardware/actions_helper/ptp_motion_handler.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kfranka/async_control/async_position_control_handler.hpp: No such file or directory
+[0.376s]    21 | #include [01;31m[K<franka/async_control/async_position_control_handler.hpp>[m[K
+[0.376s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.376s] compilation terminated.
+[0.378s] gmake[2]: *** [CMakeFiles/franka_hardware.dir/build.make:104: CMakeFiles/franka_hardware.dir/src/franka_hardware_interface.cpp.o] Error 1
+[0.378s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/franka_hardware.dir/all] Error 2
+[0.378s] gmake: *** [Makefile:146: all] Error 2
+[0.380s] Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_hardware' returned '2': AMENT_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin:${PATH} PKG_CONFIG_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/x86_64-linux-gnu/pkgconfig:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/pkgconfig PYTHONPATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/franka_hardware -- -j16 -l16

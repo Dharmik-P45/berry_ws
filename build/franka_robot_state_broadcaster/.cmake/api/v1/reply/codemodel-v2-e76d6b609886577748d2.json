@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-a7be207834f3daf6432b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "franka_robot_state_broadcaster",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_robot_state_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_robot_state_broadcaster-Release-114ab999c478c1fe94e2.json",
+					"name" : "franka_robot_state_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_robot_state_broadcaster_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_robot_state_broadcaster_parameters-Release-f6078a37359a127c1ea0.json",
+					"name" : "franka_robot_state_broadcaster_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_robot_state_broadcaster_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_robot_state_broadcaster_uninstall-Release-94a460d5889439066b46.json",
+					"name" : "franka_robot_state_broadcaster_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-09883b98e58f31ed45a0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dharmik.p45/Dharmik/berry_ws/build/franka_robot_state_broadcaster",
+		"source" : "/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_robot_state_broadcaster"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

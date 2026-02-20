@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from franka_msgs/action/PTPMotion.action
+// generated code does not contain a copyright notice
+
+#include "franka_msgs/msg/TargetStatus.idl"
+
+module franka_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "This defines a PTPMotion action for controlling a Franka robot using point-to-point motion commands." "\n"
+      "The goal_joint_configuration specifies the desired joint angles.")
+    struct PTPMotion_Goal {
+      @unit (value="rad")
+      sequence<double> goal_joint_configuration;
+
+      @verbatim (language="comment", text=
+        "The maximum allowed joint velocities for the motion." "\n"
+        "[rad/s]")
+      @unit (value="rad/s")
+      sequence<double> maximum_joint_velocities;
+
+      @verbatim (language="comment", text=
+        "The acceptable goal tolerance for the motion. The 'target reached condition is met when" "\n"
+        "- the absolute difference between the current and goal joint positions is within this goal_tolerance" "\n"
+        "- the joint velocities are below a small threshold" "\n"
+        "[rad]")
+      @unit (value="rad")
+      double goal_tolerance;
+    };
+    @verbatim (language="comment", text=
+      "Result of the point-to-point motion action")
+    struct PTPMotion_Result {
+      franka_msgs::msg::TargetStatus target_status;
+
+      @verbatim (language="comment", text=
+        "In case of failure, an error message describing the issue")
+      string error_message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback during the execution of the point-to-point motion")
+    struct PTPMotion_Feedback {
+      franka_msgs::msg::TargetStatus target_status;
+    };
+  };
+};

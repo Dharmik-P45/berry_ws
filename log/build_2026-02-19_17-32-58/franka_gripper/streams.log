@@ -1,0 +1,78 @@
+[0.011s] Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_gripper': AMENT_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin:${PATH} PKG_CONFIG_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/x86_64-linux-gnu/pkgconfig:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/pkgconfig PYTHONPATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_gripper -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DBUILD_TESTS=OFF -DCMAKE_INSTALL_PREFIX=/home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper
+[0.020s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.107s] -- Found franka_msgs: 2.2.0 (/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/share/franka_msgs/cmake)
+[0.122s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.124s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.127s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.133s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.139s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.192s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.206s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.207s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.277s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.305s] -- Found rclcpp_action: 16.0.17 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.313s] -- Found rclcpp_components: 16.0.17 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.332s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.342s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.464s] -- Configuring done
+[0.477s] -- Generating done
+[0.478s] [33mCMake Warning:
+[0.478s]   Manually-specified variables were not used by the project:
+[0.478s] 
+[0.479s]     BUILD_TESTS
+[0.479s] 
+[0.479s] [0m
+[0.483s] -- Build files have been written to: /home/dharmik.p45/Dharmik/berry_ws/build/franka_gripper
+[0.489s] Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_gripper' returned '0': AMENT_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin:${PATH} PKG_CONFIG_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/x86_64-linux-gnu/pkgconfig:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/pkgconfig PYTHONPATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_gripper -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DBUILD_TESTS=OFF -DCMAKE_INSTALL_PREFIX=/home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper
+[0.489s] Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_gripper': AMENT_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin:${PATH} PKG_CONFIG_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/x86_64-linux-gnu/pkgconfig:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/pkgconfig PYTHONPATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/franka_gripper -- -j16 -l16
+[0.524s] [35m[1mConsolidate compiler generated dependencies of target franka_gripper_node[0m
+[0.526s] [35m[1mConsolidate compiler generated dependencies of target gripper_server[0m
+[0.540s] [  0%] Built target ament_cmake_python_copy_franka_gripper
+[0.548s] [ 50%] Built target franka_gripper_node
+[0.548s] [100%] Built target gripper_server
+[0.684s] running egg_info
+[0.684s] writing franka_gripper.egg-info/PKG-INFO
+[0.684s] writing dependency_links to franka_gripper.egg-info/dependency_links.txt
+[0.684s] writing top-level names to franka_gripper.egg-info/top_level.txt
+[0.685s] reading manifest file 'franka_gripper.egg-info/SOURCES.txt'
+[0.686s] writing manifest file 'franka_gripper.egg-info/SOURCES.txt'
+[0.705s] [100%] Built target ament_cmake_python_build_franka_gripper_egg
+[0.714s] Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_gripper' returned '0': AMENT_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin:${PATH} PKG_CONFIG_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/x86_64-linux-gnu/pkgconfig:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/pkgconfig PYTHONPATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/franka_gripper -- -j16 -l16
+[0.716s] Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_gripper': AMENT_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib:/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/bin:${PATH} PKG_CONFIG_PATH=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/x86_64-linux-gnu/pkgconfig:/home/dharmik.p45/Dharmik/berry_ws/install/libfranka/lib/pkgconfig PYTHONPATH=/home/dharmik.p45/Dharmik/berry_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dharmik.p45/Dharmik/berry_ws/build/franka_gripper
+[0.721s] -- Install configuration: "Release"
+[0.721s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/lib/franka_gripper/franka_gripper_node
+[0.722s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/lib/franka_gripper/franka_gripper_node" to ""
+[0.722s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/lib/libgripper_server.so
+[0.724s] -- Set runtime path of "/home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/lib/libgripper_server.so" to ""
+[0.724s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/share/franka_gripper//launch
+[0.724s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/share/franka_gripper//launch/gripper.launch.py
+[0.724s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/share/franka_gripper//config
+[0.724s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/share/franka_gripper//config/franka_gripper_node.yaml
+[0.724s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/share/franka_gripper/environment/pythonpath.sh
+[0.724s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/share/franka_gripper/environment/pythonpath.dsv
+[0.724s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper-2.2.0-py3.10.egg-info
+[0.725s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper-2.2.0-py3.10.egg-info/PKG-INFO
+[0.725s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper-2.2.0-py3.10.egg-info/dependency_links.txt
+[0.725s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper-2.2.0-py3.10.egg-info/SOURCES.txt
+[0.725s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper-2.2.0-py3.10.egg-info/top_level.txt
+[0.725s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper
+[0.725s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper/__init__.py
+[0.744s] Listing '/home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper'...
+[0.744s] Compiling '/home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper/__init__.py'...
+[0.748s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/lib/franka_gripper/fake_gripper_state_publisher.py
+[0.749s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/share/ament_index/resource_index/package_run_dependencies/franka_gripper
+[0.749s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/share/ament_index/resource_index/parent_prefix_path/franka_gripper
+[0.749s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/share/franka_gripper/environment/ament_prefix_path.sh
+[0.749s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/share/franka_gripper/environment/ament_prefix_path.dsv
+[0.750s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/share/franka_gripper/environment/path.sh
+[0.750s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/share/franka_gripper/environment/path.dsv
+[0.750s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/share/franka_gripper/local_setup.bash
+[0.750s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/share/franka_gripper/local_setup.sh
+[0.750s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/share/franka_gripper/local_setup.zsh
+[0.751s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/share/franka_gripper/local_setup.dsv
+[0.751s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/share/franka_gripper/package.dsv
+[0.751s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/share/ament_index/resource_index/packages/franka_gripper
+[0.751s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/share/ament_index/resource_index/rclcpp_components/franka_gripper
+[0.751s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/share/franka_gripper/cmake/franka_gripperConfig.cmake
+[0.751s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/share/franka_gripper/cmake/franka_gripperConfig-version.cmake
+[0.751s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_gripper/share/franka_gripper/package.xml

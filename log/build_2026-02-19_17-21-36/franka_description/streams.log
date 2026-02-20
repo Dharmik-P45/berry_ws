@@ -1,0 +1,253 @@
+[0.014s] Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dharmik.p45/Dharmik/berry_ws/src/franka_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/dharmik.p45/Dharmik/berry_ws/install/franka_description
+[0.054s] -- The C compiler identification is GNU 12.3.0
+[0.115s] -- The CXX compiler identification is GNU 12.3.0
+[0.121s] -- Detecting C compiler ABI info
+[0.183s] -- Detecting C compiler ABI info - done
+[0.188s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.188s] -- Detecting C compile features
+[0.189s] -- Detecting C compile features - done
+[0.191s] -- Detecting CXX compiler ABI info
+[0.261s] -- Detecting CXX compiler ABI info - done
+[0.269s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.269s] -- Detecting CXX compile features
+[0.270s] -- Detecting CXX compile features - done
+[0.273s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.383s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.441s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.824s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.843s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.845s] -- Added test 'lint_cmake' to check CMake code style
+[0.848s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.858s] -- Added test 'xmllint' to check XML markup files
+[0.860s] -- Configuring done
+[0.866s] -- Generating done
+[0.869s] -- Build files have been written to: /home/dharmik.p45/Dharmik/berry_ws/build/franka_description
+[0.879s] Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dharmik.p45/Dharmik/berry_ws/src/franka_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/dharmik.p45/Dharmik/berry_ws/install/franka_description
+[0.883s] Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/franka_description -- -j16 -l16
+[0.910s] Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dharmik.p45/Dharmik/berry_ws/build/franka_description -- -j16 -l16
+[0.911s] Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dharmik.p45/Dharmik/berry_ws/build/franka_description
+[0.918s] -- Install configuration: "Release"
+[0.918s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//launch
+[0.918s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//launch/visualize_franka.launch.py
+[0.918s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//launch/visualize_franka_duo.launch.py
+[0.919s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots
+[0.919s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3_duo
+[0.919s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo.urdf.xacro
+[0.919s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo_mount
+[0.919s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo_mount/fr3_duo_mount.xacro
+[0.919s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo_mount/kinematics.yaml
+[0.919s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo_mount/inertials.yaml
+[0.919s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo_fixed_structure.urdf.xacro
+[0.920s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo_cover
+[0.920s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo_cover/kinematics.yaml
+[0.920s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo_cover/inertials.yaml
+[0.920s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo_cover/fr3_duo_cover.xacro
+[0.920s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo_arm.urdf.xacro
+[0.920s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3v2
+[0.921s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3v2/accelerometers.yaml
+[0.921s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3v2/fr3v2.srdf.xacro
+[0.921s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3v2/kinematics.yaml
+[0.921s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3v2/inertials.yaml
+[0.921s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3v2/fr3v2.urdf.xacro
+[0.922s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3v2/joint_limits.yaml
+[0.922s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3v2/dynamics.yaml
+[0.922s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3v2.1
+[0.922s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3v2.1/fr3v2.1.urdf.xacro
+[0.922s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3v2.1/accelerometers.yaml
+[0.922s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3v2.1/fr3v2.1.srdf.xacro
+[0.923s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3v2.1/kinematics.yaml
+[0.923s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3v2.1/inertials.yaml
+[0.923s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3v2.1/joint_limits.yaml
+[0.923s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3v2.1/dynamics.yaml
+[0.923s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fp3
+[0.923s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fp3/accelerometers.yaml
+[0.924s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fp3/kinematics.yaml
+[0.924s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fp3/inertials.yaml
+[0.924s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fp3/fp3.srdf.xacro
+[0.924s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fp3/joint_limits.yaml
+[0.924s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fp3/dynamics.yaml
+[0.924s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fp3/fp3.urdf.xacro
+[0.925s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fer
+[0.925s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fer/fer.srdf.xacro
+[0.925s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fer/kinematics.yaml
+[0.925s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fer/inertials.yaml
+[0.925s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fer/joint_limits.yaml
+[0.925s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fer/fer.urdf.xacro
+[0.925s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fer/dynamics.yaml
+[0.926s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/common
+[0.926s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/common/franka_arm.ros2_control.xacro
+[0.926s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/common/utils.xacro
+[0.926s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/common/group_definition.xacro
+[0.926s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/common/franka_arm.srdf.xacro
+[0.926s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/common/franka_robot.xacro
+[0.927s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/common/franka_arm.xacro
+[0.927s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3
+[0.927s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3/accelerometers.yaml
+[0.927s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3/kinematics.yaml
+[0.927s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3/fr3.srdf.xacro
+[0.927s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3/inertials.yaml
+[0.928s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3/joint_limits.yaml
+[0.928s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3/fr3.urdf.xacro
+[0.928s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//robots/fr3/dynamics.yaml
+[0.928s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//end_effectors
+[0.928s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump
+[0.928s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump/cobot_pump.urdf.xacro
+[0.928s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump/cobot_pump_arguments.xacro
+[0.929s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump/inertials.yaml
+[0.929s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//end_effectors/franka_hand
+[0.929s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/franka_hand.srdf.xacro
+[0.929s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/franka_hand_arguments.xacro
+[0.929s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/inertials.yaml
+[0.929s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/franka_hand.urdf.xacro
+[0.929s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//end_effectors/common
+[0.929s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//end_effectors/common/utils.xacro
+[0.930s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//end_effectors/common/ee_with_one_link.xacro
+[0.930s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//end_effectors/common/franka_hand.xacro
+[0.930s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes
+[0.930s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms
+[0.930s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3_duo
+[0.930s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3_duo/cover
+[0.930s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3_duo/cover/visual
+[0.930s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3_duo/cover/visual/fr3_duo_cover.dae
+[0.942s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3_duo/cover/collision
+[0.942s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3_duo/cover/collision/fr3_duo_cover.stl
+[0.942s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3_duo/mount
+[0.942s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3_duo/mount/visual
+[0.942s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3_duo/mount/visual/fr3_duo_mount.dae
+[0.942s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3_duo/mount/collision
+[0.942s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3_duo/mount/collision/fr3_duo_mount.stl
+[0.942s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2
+[0.942s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/visual
+[0.943s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/visual/link5.dae
+[0.943s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/visual/link2.dae
+[0.945s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/visual/link7.dae
+[0.951s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/visual/link3.dae
+[0.952s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/visual/link1.dae
+[0.953s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/visual/link0.dae
+[0.959s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/visual/link6.dae
+[0.966s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/visual/link4.dae
+[0.967s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/collision
+[0.967s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/collision/link1.stl
+[0.967s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/collision/link5.stl
+[0.967s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/collision/link3.stl
+[0.967s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/collision/link7.stl
+[0.967s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/collision/link6.stl
+[0.968s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/collision/link4.stl
+[0.968s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/collision/link2.stl
+[0.968s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/collision/link0.stl
+[0.968s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2.1
+[0.968s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2.1/visual
+[0.968s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2.1/visual/link5.dae
+[0.969s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2.1/visual/link2.dae
+[0.969s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2.1/visual/link7.dae
+[0.973s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2.1/visual/link3.dae
+[0.974s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2.1/visual/link1.dae
+[0.975s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2.1/visual/link0.dae
+[0.980s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2.1/visual/link6.dae
+[0.987s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2.1/visual/link4.dae
+[0.988s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2.1/collision
+[0.988s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2.1/collision/link1.stl
+[0.988s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2.1/collision/link5.stl
+[0.988s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2.1/collision/link3.stl
+[0.988s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2.1/collision/link7.stl
+[0.989s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2.1/collision/link6.stl
+[0.989s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2.1/collision/link4.stl
+[0.989s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2.1/collision/link2.stl
+[0.989s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2.1/collision/link0.stl
+[0.989s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3
+[0.989s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual
+[0.989s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link5.dae
+[0.991s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link2.dae
+[0.992s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link7.dae
+[0.995s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link3.dae
+[0.997s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link1.dae
+[0.997s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link0.dae
+[1.002s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link6.dae
+[1.006s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link4.dae
+[1.008s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision
+[1.008s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link1.stl
+[1.008s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link5.stl
+[1.008s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link3.stl
+[1.008s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link7.stl
+[1.008s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link6.stl
+[1.009s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link4.stl
+[1.009s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link2.stl
+[1.009s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link0.stl
+[1.009s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer
+[1.009s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual
+[1.009s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/finger.dae
+[1.009s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link5.dae
+[1.010s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link2.dae
+[1.011s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link7.dae
+[1.011s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link3.dae
+[1.012s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link1.dae
+[1.013s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link0.dae
+[1.014s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/hand.dae
+[1.015s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link6.dae
+[1.016s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link4.dae
+[1.017s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision
+[1.017s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/hand.stl
+[1.017s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link1.stl
+[1.017s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link5.stl
+[1.017s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link3.stl
+[1.017s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link7.stl
+[1.017s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link6.stl
+[1.018s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link4.stl
+[1.018s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link2.stl
+[1.018s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link0.stl
+[1.018s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3
+[1.018s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual
+[1.018s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link5.dae
+[1.020s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link2.dae
+[1.021s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link7.dae
+[1.024s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link3.dae
+[1.027s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link1.dae
+[1.027s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link0.dae
+[1.032s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link6.dae
+[1.036s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link4.dae
+[1.038s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision
+[1.038s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link1.stl
+[1.038s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link5.stl
+[1.038s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link3.stl
+[1.038s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link7.stl
+[1.038s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link6.stl
+[1.038s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link4.stl
+[1.038s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link2.stl
+[1.039s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link0.stl
+[1.039s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_ee
+[1.039s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump
+[1.039s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/visual
+[1.039s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/visual/cobot_pump.dae
+[1.046s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/collision
+[1.046s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/collision/cobot_pump.stl
+[1.050s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black
+[1.050s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/visual
+[1.050s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/visual/finger.dae
+[1.050s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/visual/hand.dae
+[1.050s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/collision
+[1.050s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/collision/hand.stl
+[1.050s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white
+[1.051s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/visual
+[1.051s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/visual/finger.dae
+[1.051s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/visual/hand.dae
+[1.051s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/collision
+[1.051s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/collision/hand.stl
+[1.051s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//rviz
+[1.051s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//rviz/visualize_franka.rviz
+[1.051s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description//rviz/visualize_franka_duo.rviz
+[1.051s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/ament_index/resource_index/package_run_dependencies/franka_description
+[1.052s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/ament_index/resource_index/parent_prefix_path/franka_description
+[1.052s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.sh
+[1.052s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.dsv
+[1.052s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/environment/path.sh
+[1.052s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/environment/path.dsv
+[1.052s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/local_setup.bash
+[1.052s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/local_setup.sh
+[1.052s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/local_setup.zsh
+[1.052s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/local_setup.dsv
+[1.052s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/package.dsv
+[1.052s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/ament_index/resource_index/packages/franka_description
+[1.053s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig.cmake
+[1.053s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig-version.cmake
+[1.053s] -- Installing: /home/dharmik.p45/Dharmik/berry_ws/install/franka_description/share/franka_description/package.xml
+[1.055s] Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dharmik.p45/Dharmik/berry_ws/build/franka_description

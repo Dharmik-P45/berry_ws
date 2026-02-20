@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[35m[1mConsolidate compiler generated dependencies of target franka_hardware[0m
+[ 14%] Built target gmock
+[ 23%] Built target gmock_main
+[ 28%] [32mBuilding CXX object CMakeFiles/franka_hardware.dir/src/franka_action_server.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/franka_hardware.dir/src/franka_hardware_interface.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/franka_hardware.dir/src/actions_helper/ptp_motion_handler.cpp.o[0m
+In file included from [01m[K/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_hardware/src/actions_helper/ptp_motion_handler.cpp:15[m[K:
+[01m[K/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_hardware/include/franka_hardware/actions_helper/ptp_motion_handler.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kfranka/async_control/async_position_control_handler.hpp: No such file or directory
+   21 | #include [01;31m[K<franka/async_control/async_position_control_handler.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/franka_hardware.dir/build.make:160: CMakeFiles/franka_hardware.dir/src/actions_helper/ptp_motion_handler.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_hardware/include/franka_hardware/franka_action_server.hpp:22[m[K,
+                 from [01m[K/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_hardware/src/franka_action_server.cpp:15[m[K:
+[01m[K/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_hardware/include/franka_hardware/actions_helper/ptp_motion_handler.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kfranka/async_control/async_position_control_handler.hpp: No such file or directory
+   21 | #include [01;31m[K<franka/async_control/async_position_control_handler.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/franka_hardware.dir/build.make:76: CMakeFiles/franka_hardware.dir/src/franka_action_server.cpp.o] Error 1
+In file included from [01m[K/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_hardware/include/franka_hardware/franka_action_server.hpp:22[m[K,
+                 from [01m[K/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_hardware/include/franka_hardware/franka_hardware_interface.hpp:34[m[K,
+                 from [01m[K/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_hardware/src/franka_hardware_interface.cpp:30[m[K:
+[01m[K/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_hardware/include/franka_hardware/actions_helper/ptp_motion_handler.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kfranka/async_control/async_position_control_handler.hpp: No such file or directory
+   21 | #include [01;31m[K<franka/async_control/async_position_control_handler.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/franka_hardware.dir/build.make:104: CMakeFiles/franka_hardware.dir/src/franka_hardware_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/franka_hardware.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

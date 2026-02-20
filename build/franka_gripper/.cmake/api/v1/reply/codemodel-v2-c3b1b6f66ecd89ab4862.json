@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-4daa12d637c8d1cc1685.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "franka_gripper",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_franka_gripper_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_franka_gripper_egg-Release-b5ad1a57e51fe0e218c6.json",
+					"name" : "ament_cmake_python_build_franka_gripper_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_franka_gripper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_franka_gripper-Release-22cbd29df08e65af4a43.json",
+					"name" : "ament_cmake_python_copy_franka_gripper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_gripper_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_gripper_node-Release-af106cdb8a27debc2eef.json",
+					"name" : "franka_gripper_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_gripper_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_gripper_uninstall-Release-dc4bd62a580fe2dac20b.json",
+					"name" : "franka_gripper_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_server-Release-48ad5e21d09c4e82e2ec.json",
+					"name" : "gripper_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-7baf81f26735c39845a8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dharmik.p45/Dharmik/berry_ws/build/franka_gripper",
+		"source" : "/home/dharmik.p45/Dharmik/berry_ws/src/franka_ros2/franka_gripper"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

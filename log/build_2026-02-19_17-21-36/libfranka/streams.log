@@ -1,0 +1,80 @@
+[0.015s] Invoking command in '/home/dharmik.p45/Dharmik/berry_ws/build/libfranka': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dharmik.p45/Dharmik/berry_ws/src/libfranka -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka
+[0.086s] -- The CXX compiler identification is GNU 12.3.0
+[0.094s] -- Detecting CXX compiler ABI info
+[0.163s] -- Detecting CXX compiler ABI info - done
+[0.171s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.172s] -- Detecting CXX compile features
+[0.172s] -- Detecting CXX compile features - done
+[0.190s] -- Found Eigen3: /usr/include/eigen3  
+[0.243s] -- pinocchio_default FOUND. pinocchio_default at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_default.so
+[0.243s] -- pinocchio_parsers FOUND. pinocchio_parsers at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_parsers.so
+[0.244s] -- boost_filesystem FOUND. boost_filesystem at /lib/x86_64-linux-gnu/libboost_filesystem.so
+[0.280s] -- Found Boost: /usr/include (found version "1.74.0") found components: filesystem serialization system 
+[0.281s] -- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so
+[0.646s] -- PythonLibraryDirs: 
+[0.646s] -- PythonLibVersionString: 3.10.12
+[0.659s] -- Python site lib: lib/python3.10/site-packages
+[0.659s] -- Python include dirs: /usr/include/python3.10
+[0.685s] -- Checking for NumPy
+[0.771s] --   NUMPY_INCLUDE_DIRS=/home/dharmik.p45/.local/lib/python3.10/site-packages/numpy/_core/include
+[0.889s] --   NUMPY_VERSION=2.2.6
+[0.889s] -- NumPy include dir: /home/dharmik.p45/.local/lib/python3.10/site-packages/numpy/_core/include
+[0.892s] [33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+[0.892s]   No header defined for python310; skipping header check (note: header-only
+[0.892s]   libraries have no designated component)
+[0.892s] Call Stack (most recent call first):
+[0.892s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+[0.892s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+[0.892s]   /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+[0.892s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)
+[0.892s]   CMakeLists.txt:54 (find_package)
+[0.893s] 
+[0.893s] [0m
+[0.894s] -- Found Boost: /usr/include (found version "1.74.0") found components: python310 
+[1.115s] -- Default C++ standard: 201703
+[1.115s] -- Minimal C++ standard upgraded to 11
+[1.115s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[1.119s] -- hpp-fcl FOUND. hpp-fcl at /opt/ros/humble/lib/x86_64-linux-gnu/libhpp-fcl.so
+[1.127s] -- Found Boost: /usr/include (found version "1.74.0") found components: chrono serialization filesystem 
+[1.129s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[1.130s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[1.179s] -- Found TinyXML2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so (found version "9.0.0") 
+[1.183s] -- Looking for C++ include pthread.h
+[1.248s] -- Looking for C++ include pthread.h - found
+[1.248s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.319s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.320s] -- Found Threads: TRUE  
+[1.321s] -- Found fmt: 8.1.1
+[1.322s] [31mCMake Error at CMakeLists.txt:85 (add_subdirectory):
+[1.322s]   The source directory
+[1.322s] 
+[1.322s]     /home/dharmik.p45/Dharmik/berry_ws/src/libfranka/common
+[1.322s] 
+[1.322s]   does not contain a CMakeLists.txt file.
+[1.322s] 
+[1.322s] [0m
+[1.326s] [31mCMake Error at CMakeLists.txt:172 (install):
+[1.326s]   install TARGETS given target "libfranka-common" which does not exist.
+[1.326s] 
+[1.326s] [0m
+[1.326s] [31mCMake Error at CMakeLists.txt:182 (export):
+[1.326s]   export Export set "FrankaTargets" not found.
+[1.326s] 
+[1.326s] [0m
+[1.333s] -- googletest not found. Fetching googletest...
+[8.136s] -- The C compiler identification is GNU 12.3.0
+[8.141s] -- Detecting C compiler ABI info
+[8.196s] -- Detecting C compiler ABI info - done
+[8.200s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.200s] -- Detecting C compile features
+[8.201s] -- Detecting C compile features - done
+[8.209s] -- Performing Test HAVE_ASan
+[8.313s] -- Performing Test HAVE_ASan - Success
+[8.314s] -- Performing Test HAVE_UBSan
+[8.398s] -- Performing Test HAVE_UBSan - Success
+[8.399s] -- Performing Test HAVE_TSan
+[8.484s] -- Performing Test HAVE_TSan - Success
+[8.486s] -- Found fmt: 8.1.1
+[8.535s] -- Configuring incomplete, errors occurred!
+[8.535s] See also "/home/dharmik.p45/Dharmik/berry_ws/build/libfranka/CMakeFiles/CMakeOutput.log".
+[8.542s] Invoked command in '/home/dharmik.p45/Dharmik/berry_ws/build/libfranka' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dharmik.p45/Dharmik/berry_ws/src/libfranka -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/dharmik.p45/Dharmik/berry_ws/install/libfranka
