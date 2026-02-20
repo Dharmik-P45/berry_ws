@@ -1,0 +1,4 @@
+cd ~/Dharmik/berry_ws
+source install/setup.bash
+ros2 launch franka_fr3_moveit_config moveit.launch.py robot_ip:=<YOUR_ROBOT_IP> use_fake_hardware:=false
+
